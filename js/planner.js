@@ -35,24 +35,6 @@ function initDayButtons() {
     });
 }
 
-// --- 설정 모달 ---
-function openSettings() {
-    document.getElementById('settingsProvider').value = getApiProvider();
-    document.getElementById('settingsApiKey').value = getApiKey();
-    document.getElementById('settingsModal').classList.add('active');
-}
-function closeSettings() {
-    document.getElementById('settingsModal').classList.remove('active');
-}
-function saveSettings() {
-    const provider = document.getElementById('settingsProvider').value;
-    const apiKey = document.getElementById('settingsApiKey').value.trim();
-    setApiProvider(provider);
-    setApiKey(apiKey);
-    closeSettings();
-    showToast('AI 설정이 저장되었습니다.', 'success');
-}
-
 // --- URL 해시로 공유된 계획 확인 ---
 function checkSharedPlan() {
     const hash = window.location.hash;
@@ -84,8 +66,10 @@ async function generatePlan() {
 
     const apiKey = getApiKey();
     if (!apiKey) {
-        showToast('AI API Key를 설정해주세요. (좌측 상단 ⚙️ 버튼)', 'error');
-        openSettings();
+        showToast('AI API Key를 먼저 설정해주세요. (관리자 페이지 → AI 설정)', 'error');
+        if (confirm('API Key가 설정되지 않았습니다.\n관리자 페이지에서 설정하시겠습니까?')) {
+            window.location.href = 'admin/';
+        }
         return;
     }
 
@@ -191,7 +175,10 @@ function buildPrompt(region, month, days, styles, customStyle, places) {
 7. 추천 소요시간 데이터가 있으면 이를 기반으로 시간 블록 배분
 8. 복수 스타일 선택 시 균형 있게 배분
 
-반드시 아래 JSON 형식으로만 응답해주세요 (다른 텍스트 없이 순수 JSON만):`;
+매우 중요: 응답은 반드시 순수 JSON만 출력하세요.
+- 첫 글자는 반드시 { 로 시작하고 마지막 글자는 } 로 끝나야 합니다.
+- JSON 앞뒤에 설명, 인사말, 마크다운 코드블록(\`\`\`) 등을 절대 넣지 마세요.
+- 아래 JSON 구조를 정확히 따르세요:`;
 
     const outputFormat = `{
   "title": "여행 제목",
@@ -238,7 +225,9 @@ ${outputFormat}
 
 위 JSON 형식에 맞게 ${days}일간의 상세 여행 일정을 생성해주세요.
 각 일별로 아침부터 저녁까지 시간순으로 장소를 배치하고, 이동 동선을 고려해주세요.
-맛집은 하루에 최소 2곳 이상 포함해주세요.`;
+맛집은 하루에 최소 2곳 이상 포함해주세요.
+
+중요: 반드시 { 로 시작하는 순수 JSON만 출력하세요. 다른 텍스트를 포함하지 마세요.`;
 
     return { system, user };
 }
@@ -255,7 +244,7 @@ async function callClaudeAPI(systemPrompt, userPrompt, apiKey) {
         },
         body: JSON.stringify({
             model: CONFIG.CLAUDE_MODEL,
-            max_tokens: 4096,
+            max_tokens: 8192,
             system: systemPrompt,
             messages: [{ role: 'user', content: userPrompt }],
         }),
@@ -284,7 +273,7 @@ async function callOpenAIAPI(systemPrompt, userPrompt, apiKey) {
                 { role: 'system', content: systemPrompt },
                 { role: 'user', content: userPrompt },
             ],
-            max_tokens: 4096,
+            max_tokens: 8192,
             temperature: 0.7,
         }),
     });
@@ -300,19 +289,85 @@ async function callOpenAIAPI(systemPrompt, userPrompt, apiKey) {
 
 // --- AI 응답 파싱 ---
 function parseAIResponse(text) {
-    // ```json ... ``` 블록 추출
+    if (!text) return null;
+
+    // 전략 1: ```json ... ``` 블록 추출
     if (text.includes('```')) {
         const match = text.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
-        if (match) text = match[1];
+        if (match) {
+            const parsed = tryParseJSON(match[1].trim());
+            if (parsed) return parsed;
+        }
     }
-    text = text.trim();
+
+    // 전략 2: 전체 텍스트를 직접 파싱
+    const directParse = tryParseJSON(text.trim());
+    if (directParse) return directParse;
+
+    // 전략 3: 첫 번째 { 부터 마지막 } 까지 추출
+    const firstBrace = text.indexOf('{');
+    const lastBrace = text.lastIndexOf('}');
+    if (firstBrace !== -1 && lastBrace > firstBrace) {
+        const jsonCandidate = text.substring(firstBrace, lastBrace + 1);
+        const parsed = tryParseJSON(jsonCandidate);
+        if (parsed) return parsed;
+    }
+
+    // 전략 4: 잘린 JSON 복구 시도 (닫히지 않은 괄호 닫기)
+    if (firstBrace !== -1) {
+        let jsonStr = text.substring(firstBrace);
+        jsonStr = repairTruncatedJSON(jsonStr);
+        const parsed = tryParseJSON(jsonStr);
+        if (parsed) return parsed;
+    }
+
+    return null;
+}
+
+function tryParseJSON(str) {
     try {
-        const data = JSON.parse(text);
-        if (!data.title || !data.days || !Array.isArray(data.days)) return null;
-        return data;
+        const data = JSON.parse(str);
+        if (data && data.days && Array.isArray(data.days)) return data;
+        return null;
     } catch {
         return null;
     }
+}
+
+function repairTruncatedJSON(str) {
+    // 불완전한 문자열 닫기
+    let inString = false;
+    let escaped = false;
+    for (let i = 0; i < str.length; i++) {
+        if (escaped) { escaped = false; continue; }
+        if (str[i] === '\\') { escaped = true; continue; }
+        if (str[i] === '"') inString = !inString;
+    }
+    if (inString) str += '"';
+
+    // 마지막 불완전한 key-value 쌍 제거
+    str = str.replace(/,\s*"[^"]*"?\s*:?\s*"?[^"]*$/, '');
+    str = str.replace(/,\s*$/, '');
+
+    // 닫히지 않은 괄호 닫기
+    const opens = [];
+    inString = false;
+    escaped = false;
+    for (let i = 0; i < str.length; i++) {
+        if (escaped) { escaped = false; continue; }
+        if (str[i] === '\\') { escaped = true; continue; }
+        if (str[i] === '"') { inString = !inString; continue; }
+        if (inString) continue;
+        if (str[i] === '{' || str[i] === '[') opens.push(str[i]);
+        if (str[i] === '}' || str[i] === ']') opens.pop();
+    }
+
+    while (opens.length > 0) {
+        const last = opens.pop();
+        str += (last === '{') ? '}' : ']';
+    }
+
+    return str;
 }
 
 // --- 여행 계획 렌더링 ---
