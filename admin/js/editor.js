@@ -260,7 +260,7 @@ async function resetToDefault() {
     if (!confirm('모든 데이터를 기본값으로 초기화하시겠습니까?\n현재 데이터가 모두 삭제됩니다.')) return;
 
     try {
-        const res = await fetch('data/places.json');
+        const res = await fetch('../data/places.json');
         const data = await res.json();
         allPlaces = data.places || [];
         savePlacesData(allPlaces);
