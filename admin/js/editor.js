@@ -271,6 +271,24 @@ async function resetToDefault() {
     }
 }
 
+// --- AI 설정 ---
+function openSettings() {
+    document.getElementById('settingsProvider').value = getApiProvider();
+    document.getElementById('settingsApiKey').value = getApiKey();
+    document.getElementById('settingsModal').classList.add('active');
+}
+function closeSettings() {
+    document.getElementById('settingsModal').classList.remove('active');
+}
+function saveSettings() {
+    const provider = document.getElementById('settingsProvider').value;
+    const apiKey = document.getElementById('settingsApiKey').value.trim();
+    setApiProvider(provider);
+    setApiKey(apiKey);
+    closeSettings();
+    showToast('AI 설정이 저장되었습니다.', 'success');
+}
+
 // --- 유틸 ---
 function truncate(str, maxLen) {
     if (!str) return '';

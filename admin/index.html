@@ -19,6 +19,30 @@
 
 <!-- 상단 버튼 -->
 <a href="../" class="nav-btn">🏠 메인으로</a>
+<button class="nav-settings" onclick="openSettings()">⚙️ AI 설정</button>
+
+<!-- API 설정 모달 -->
+<div class="modal-overlay" id="settingsModal">
+    <div class="modal-box">
+        <h2>⚙️ AI API 설정</h2>
+        <div class="form-group">
+            <label class="form-label">AI 서비스 선택</label>
+            <select class="form-select" id="settingsProvider">
+                <option value="claude">Anthropic Claude</option>
+                <option value="openai">OpenAI GPT</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-label">API Key</label>
+            <input type="password" class="form-input" id="settingsApiKey" placeholder="sk-... 또는 API Key 입력">
+            <p class="form-hint">API Key는 브라우저에만 저장되며 외부로 전송되지 않습니다</p>
+        </div>
+        <div style="display: flex; gap: 12px; margin-top: 20px;">
+            <button class="btn btn-primary" style="flex:1" onclick="saveSettings()">저장</button>
+            <button class="btn btn-secondary" onclick="closeSettings()">닫기</button>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <!-- 카테고리 탭 -->
