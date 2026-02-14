@@ -19,289 +19,1211 @@
   ],
   "places": [
     {
-      "id": 1,
-      "category_id": 1,
-      "region": "daegwallyeong",
+      "id": 1, "category_id": 1, "region": "daegwallyeong",
       "name": "대관령 삼양목장",
-      "content": "- **위치**: 강원특별자치도 평창군 대관령면 꽃밭양지길 708-9\n- **설명**: 해발 850~1,470m에 위치한 국내 최대 목장. 드넓은 초원과 풍력발전기가 어우러진 이국적 풍경이 매력적입니다.\n- **운영시간**: 09:00~17:30 (계절별 상이)\n- **입장료**: 성인 12,000원 / 청소년 10,000원 / 어린이 8,000원\n- **특징**: 양 먹이주기 체험, 목장 트레킹, 전망대\n- **추천 소요시간**: 2~3시간\n- **태그**: #목장 #자연 #힐링 #사진명소",
-      "lat": 37.6889,
-      "lng": 128.7336,
-      "operating_hours": "09:00~17:30",
-      "admission_fee": "성인 12,000원",
-      "duration_min": 150,
-      "season_tags": "spring,summer,fall",
-      "style_tags": "nature,photo,family,couple"
+      "content": "- **위치**: 강원특별자치도 평창군 대관령면 꽃밭양지길 708-9\n- **설명**: 해발 850~1,470m에 위치한 국내 최대 목장. 드넓은 초원과 풍력발전기가 어우러진 이국적 풍경\n- **운영시간**: 09:00~17:30 (계절별 상이)\n- **입장료**: 성인 12,000원 / 청소년 10,000원 / 어린이 8,000원\n- **특징**: 양 먹이주기 체험, 목장 트레킹, 전망대\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6889, "lng": 128.7336, "operating_hours": "09:00~17:30",
+      "admission_fee": "성인 12,000원", "duration_min": 150,
+      "season_tags": "spring,summer,fall", "style_tags": "nature,photo,family,couple"
     },
     {
-      "id": 2,
-      "category_id": 1,
-      "region": "daegwallyeong",
+      "id": 2, "category_id": 1, "region": "daegwallyeong",
       "name": "대관령 양떼목장",
-      "content": "- **위치**: 강원도 평창군 대관령면 대관령마루길 483-32\n- **설명**: 초록 언덕 위 양들이 한가로이 풀을 뜯는 동화 같은 목장. 겨울에는 눈 덮인 설원이 장관.\n- **운영시간**: 09:00~17:00\n- **입장료**: 성인 6,000원 / 어린이 5,000원\n- **특징**: 양 먹이주기, 초원 산책로, 포토존\n- **추천 소요시간**: 1~2시간\n- **태그**: #양떼 #힐링 #가족여행 #포토스팟",
-      "lat": 37.6847,
-      "lng": 128.7265,
-      "operating_hours": "09:00~17:00",
-      "admission_fee": "성인 6,000원",
-      "duration_min": 90,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "nature,photo,family,couple"
+      "content": "- **위치**: 강원도 평창군 대관령면 대관령마루길 483-32\n- **설명**: 초록 언덕 위 양들이 한가로이 풀을 뜯는 동화 같은 목장. 겨울 설원이 장관\n- **운영시간**: 09:00~17:00\n- **입장료**: 성인 6,000원 / 어린이 5,000원\n- **특징**: 양 먹이주기, 초원 산책로, 포토존\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.6847, "lng": 128.7265, "operating_hours": "09:00~17:00",
+      "admission_fee": "성인 6,000원", "duration_min": 90,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "nature,photo,family,couple"
     },
     {
-      "id": 3,
-      "category_id": 1,
-      "region": "daegwallyeong",
+      "id": 3, "category_id": 1, "region": "daegwallyeong",
       "name": "알펜시아 리조트",
-      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 325\n- **설명**: 사계절 복합 리조트. 2018 평창 동계올림픽 주요 경기장.\n- **운영시간**: 연중무휴 (시설별 상이)\n- **입장료**: 시설별 상이\n- **특징**: 스키장, 골프장, 워터파크, 컨벤션센터\n- **추천 소요시간**: 반나절~1일\n- **태그**: #리조트 #스키 #올림픽 #워터파크",
-      "lat": 37.6580,
-      "lng": 128.6814,
-      "operating_hours": "연중무휴",
-      "admission_fee": "시설별 상이",
-      "duration_min": 300,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "ski,activity,relax,couple,family"
+      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 325\n- **설명**: 사계절 복합 리조트. 2018 평창 동계올림픽 주요 경기장\n- **운영시간**: 연중무휴 (시설별 상이)\n- **특징**: 스키장, 골프장, 워터파크, 컨벤션센터\n- **추천 소요시간**: 반나절~1일",
+      "lat": 37.6580, "lng": 128.6814, "operating_hours": "연중무휴",
+      "admission_fee": "시설별 상이", "duration_min": 300,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "ski,activity,relax,couple,family"
     },
     {
-      "id": 4,
-      "category_id": 1,
-      "region": "daegwallyeong",
+      "id": 4, "category_id": 1, "region": "daegwallyeong",
       "name": "알펜시아 스키점프대",
-      "content": "- **위치**: 강원특별자치도 평창군 대관령면 솔봉로 325\n- **설명**: 2018 평창 동계올림픽 스키점프 경기가 열린 곳. 전망대에서 대관령 전경 감상 가능.\n- **운영시간**: 09:00~18:00\n- **입장료**: 성인 5,000원\n- **특징**: 올림픽 기념관, 스카이워크 전망대\n- **추천 소요시간**: 1~2시간\n- **태그**: #올림픽 #전망대 #문화체험",
-      "lat": 37.6590,
-      "lng": 128.6790,
-      "operating_hours": "09:00~18:00",
-      "admission_fee": "성인 5,000원",
-      "duration_min": 90,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "culture,photo,family"
+      "content": "- **위치**: 강원특별자치도 평창군 대관령면 솔봉로 325\n- **설명**: 2018 평창 동계올림픽 스키점프 경기장. 전망대에서 대관령 전경 감상\n- **운영시간**: 09:00~18:00\n- **입장료**: 성인 5,000원\n- **특징**: 올림픽 기념관, 스카이워크 전망대\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.6590, "lng": 128.6790, "operating_hours": "09:00~18:00",
+      "admission_fee": "성인 5,000원", "duration_min": 90,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "culture,photo,family"
     },
     {
-      "id": 5,
-      "category_id": 1,
-      "region": "daegwallyeong",
+      "id": 5, "category_id": 1, "region": "daegwallyeong",
       "name": "용평리조트",
-      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715\n- **설명**: 국내 최고의 스키 리조트. 사계절 관광 명소로 곤돌라, 골프, 워터파크 운영.\n- **운영시간**: 연중무휴\n- **입장료**: 시설별 상이\n- **특징**: 드래곤피크 곤돌라, 스키/보드, 발왕산 정상\n- **추천 소요시간**: 반나절~1일\n- **태그**: #스키 #곤돌라 #리조트 #사계절",
-      "lat": 37.6443,
-      "lng": 128.6802,
-      "operating_hours": "연중무휴",
-      "admission_fee": "시설별 상이",
-      "duration_min": 300,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "ski,activity,relax,couple,family"
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715\n- **설명**: 국내 최고의 스키 리조트. 곤돌라, 골프, 워터파크 운영\n- **운영시간**: 연중무휴\n- **특징**: 드래곤피크 곤돌라, 스키/보드, 발왕산 정상\n- **추천 소요시간**: 반나절~1일",
+      "lat": 37.6443, "lng": 128.6802, "operating_hours": "연중무휴",
+      "admission_fee": "시설별 상이", "duration_min": 300,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "ski,activity,relax,couple,family"
     },
     {
-      "id": 6,
-      "category_id": 1,
-      "region": "daegwallyeong",
+      "id": 6, "category_id": 1, "region": "daegwallyeong",
       "name": "대관령 하늘목장",
-      "content": "- **위치**: 강원도 평창군 대관령면 꽃밭양지길 458-23\n- **설명**: 해발 1,014m 고지대 친환경 목장. 트랙터 마차 타고 목장 투어 가능.\n- **운영시간**: 09:00~17:30\n- **입장료**: 성인 10,000원\n- **특징**: 트랙터 마차, 승마체험, 풍력발전 전망대\n- **추천 소요시간**: 2~3시간\n- **태그**: #목장 #트랙터마차 #자연 #체험",
-      "lat": 37.6950,
-      "lng": 128.7500,
-      "operating_hours": "09:00~17:30",
-      "admission_fee": "성인 10,000원",
-      "duration_min": 150,
-      "season_tags": "spring,summer,fall",
-      "style_tags": "nature,family,photo"
+      "content": "- **위치**: 강원도 평창군 대관령면 꽃밭양지길 458-23\n- **설명**: 해발 1,014m 고지대 친환경 목장. 트랙터 마차 타고 목장 투어\n- **운영시간**: 09:00~17:30\n- **입장료**: 성인 10,000원\n- **특징**: 트랙터 마차, 승마체험, 풍력발전 전망대\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6950, "lng": 128.7500, "operating_hours": "09:00~17:30",
+      "admission_fee": "성인 10,000원", "duration_min": 150,
+      "season_tags": "spring,summer,fall", "style_tags": "nature,family,photo"
     },
     {
-      "id": 7,
-      "category_id": 1,
-      "region": "bongpyeong",
-      "name": "허브나라 농원",
-      "content": "- **위치**: 강원도 평창군 봉평면 흥정계곡길 174\n- **설명**: 다양한 허브와 꽃이 가득한 정원. 허브 관련 체험 프로그램 운영.\n- **운영시간**: 09:00~18:00 (동절기 ~17:00)\n- **입장료**: 성인 7,000원\n- **특징**: 허브정원, 허브 족욕, 허브 디저트 카페\n- **추천 소요시간**: 2시간\n- **태그**: #허브 #정원 #힐링 #카페",
-      "lat": 37.6183,
-      "lng": 128.3817,
-      "operating_hours": "09:00~18:00",
-      "admission_fee": "성인 7,000원",
-      "duration_min": 120,
-      "season_tags": "spring,summer,fall",
-      "style_tags": "nature,couple,photo,relax"
+      "id": 7, "category_id": 1, "region": "bongpyeong",
+      "name": "허브나라농원",
+      "content": "- **위치**: 강원도 평창군 봉평면 흥정계곡길 225\n- **설명**: 다양한 허브와 꽃이 가득한 정원. 허브 관련 체험 프로그램 운영\n- **운영시간**: 09:00~18:00 (동절기 ~17:00)\n- **입장료**: 성인 7,000원\n- **특징**: 허브정원, 허브 족욕, 허브 디저트 카페\n- **추천 소요시간**: 2시간",
+      "lat": 37.5975, "lng": 128.3817, "operating_hours": "09:00~18:00",
+      "admission_fee": "성인 7,000원", "duration_min": 120,
+      "season_tags": "spring,summer,fall", "style_tags": "nature,couple,photo,relax"
     },
     {
-      "id": 8,
-      "category_id": 1,
-      "region": "jinbu",
-      "name": "오대산 월정사",
-      "content": "- **위치**: 강원도 평창군 진부면 오대산로 374-8\n- **설명**: 천년고찰 월정사. 전나무숲길이 특히 유명하며 사계절 아름다운 풍경.\n- **운영시간**: 일출~일몰\n- **입장료**: 성인 3,000원\n- **특징**: 전나무숲길, 템플스테이, 국보 석조보살좌상\n- **추천 소요시간**: 2~3시간\n- **태그**: #사찰 #전나무숲 #명상 #문화재",
-      "lat": 37.7300,
-      "lng": 128.5900,
-      "operating_hours": "일출~일몰",
-      "admission_fee": "성인 3,000원",
-      "duration_min": 150,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "nature,culture,hiking,relax"
+      "id": 8, "category_id": 1, "region": "jinbu",
+      "name": "월정사",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산로 374-8\n- **설명**: 오대산 자락의 천년고찰. 전나무숲길이 특히 유명\n- **운영시간**: 일출~일몰\n- **입장료**: 성인 3,000원\n- **특징**: 전나무숲길, 템플스테이, 국보 석조보살좌상\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.7300, "lng": 128.5900, "operating_hours": "일출~일몰",
+      "admission_fee": "성인 3,000원", "duration_min": 150,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "nature,culture,hiking,relax"
     },
     {
-      "id": 9,
-      "category_id": 2,
-      "region": "bongpyeong",
+      "id": 9, "category_id": 2, "region": "bongpyeong",
       "name": "봉평 메밀꽃식당",
-      "content": "- **위치**: 강원도 평창군 봉평면 기풍로 21\n- **설명**: 봉평 대표 메밀 맛집. 이효석의 '메밀꽃 필 무렵'의 배경지 인근.\n- **운영시간**: 10:00~20:00\n- **가격대**: 1인 10,000~15,000원\n- **대표메뉴**: 메밀국수, 메밀전병, 메밀막국수\n- **특징**: 40년 전통, 직접 반죽한 수제 메밀국수\n- **태그**: #메밀국수 #봉평맛집 #전통",
-      "lat": 37.6100,
-      "lng": 128.3750,
-      "operating_hours": "10:00~20:00",
+      "content": "- **위치**: 강원도 평창군 봉평면 기풍로 21\n- **설명**: 봉평 대표 메밀 맛집. 이효석의 '메밀꽃 필 무렵' 배경지 인근\n- **운영시간**: 10:00~20:00\n- **대표메뉴**: 메밀국수, 메밀전병, 메밀막국수\n- **특징**: 40년 전통, 직접 반죽한 수제 메밀국수",
+      "lat": 37.6100, "lng": 128.3750, "operating_hours": "10:00~20:00",
       "duration_min": 60,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "food"
+      "season_tags": "spring,summer,fall,winter", "style_tags": "food"
     },
     {
-      "id": 10,
-      "category_id": 2,
-      "region": "daegwallyeong",
+      "id": 10, "category_id": 2, "region": "daegwallyeong",
       "name": "한우리 미트파이",
-      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 54\n- **설명**: 평창 한우를 활용한 수제 미트파이 전문점. SNS 인기 맛집.\n- **운영시간**: 10:00~18:00 (매주 화요일 휴무)\n- **가격대**: 1개 5,000~8,000원\n- **대표메뉴**: 한우 미트파이, 치즈 미트파이\n- **특징**: 테이크아웃 전문, 이동 중 간식으로 추천\n- **태그**: #미트파이 #한우 #간식 #SNS맛집",
-      "lat": 37.6700,
-      "lng": 128.7100,
-      "operating_hours": "10:00~18:00",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 54\n- **설명**: 평창 한우를 활용한 수제 미트파이 전문점\n- **운영시간**: 10:00~18:00 (매주 화요일 휴무)\n- **대표메뉴**: 한우 미트파이, 치즈 미트파이\n- **특징**: 테이크아웃 전문, SNS 인기 맛집",
+      "lat": 37.6700, "lng": 128.7100, "operating_hours": "10:00~18:00",
       "duration_min": 30,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "food,couple"
+      "season_tags": "spring,summer,fall,winter", "style_tags": "food,couple"
     },
     {
-      "id": 11,
-      "category_id": 2,
-      "region": "pyeongchang_eup",
+      "id": 11, "category_id": 2, "region": "pyeongchang_eup",
       "name": "평창올림픽시장 먹거리촌",
-      "content": "- **위치**: 강원도 평창군 평창읍 올림픽로 59\n- **설명**: 전통시장 내 다양한 먹거리를 즐길 수 있는 곳. 메밀전, 감자전, 한우구이 등.\n- **운영시간**: 09:00~19:00\n- **가격대**: 5,000~15,000원\n- **대표메뉴**: 메밀전, 감자떡, 한우구이\n- **특징**: 전통시장 분위기, 다양한 길거리 음식\n- **태그**: #전통시장 #먹거리 #감자전 #한우",
-      "lat": 37.3710,
-      "lng": 128.3900,
-      "operating_hours": "09:00~19:00",
+      "content": "- **위치**: 강원도 평창군 평창읍 올림픽로 59\n- **설명**: 전통시장 내 다양한 먹거리. 메밀전, 감자전, 한우구이\n- **운영시간**: 09:00~19:00\n- **대표메뉴**: 메밀전, 감자떡, 한우구이\n- **특징**: 전통시장 분위기, 다양한 길거리 음식",
+      "lat": 37.3710, "lng": 128.3900, "operating_hours": "09:00~19:00",
       "duration_min": 60,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "food,culture,family"
+      "season_tags": "spring,summer,fall,winter", "style_tags": "food,culture,family"
     },
     {
-      "id": 12,
-      "category_id": 2,
-      "region": "jinbu",
+      "id": 12, "category_id": 2, "region": "jinbu",
       "name": "진부역전 황태해장국",
-      "content": "- **위치**: 강원도 평창군 진부면 경강로 3385\n- **설명**: 평창 명물 황태해장국 전문점. 깊은 국물맛이 일품.\n- **운영시간**: 07:00~20:00\n- **가격대**: 10,000~12,000원\n- **대표메뉴**: 황태해장국, 황태구이정식\n- **특징**: 아침식사로 인기, 30년 전통\n- **태그**: #황태해장국 #아침식사 #전통맛집",
-      "lat": 37.6500,
-      "lng": 128.5600,
-      "operating_hours": "07:00~20:00",
+      "content": "- **위치**: 강원도 평창군 진부면 경강로 3385\n- **설명**: 평창 명물 황태해장국 전문점. 깊은 국물맛이 일품\n- **운영시간**: 07:00~20:00\n- **대표메뉴**: 황태해장국, 황태구이정식\n- **특징**: 아침식사로 인기, 30년 전통",
+      "lat": 37.6500, "lng": 128.5600, "operating_hours": "07:00~20:00",
       "duration_min": 45,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "food"
+      "season_tags": "spring,summer,fall,winter", "style_tags": "food"
     },
     {
-      "id": 13,
-      "category_id": 3,
-      "region": "daegwallyeong",
+      "id": 13, "category_id": 3, "region": "daegwallyeong",
       "name": "대관령 풍력발전단지",
-      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 해발 1,100m에 위치한 국내 최대 풍력발전단지. 거대한 풍차와 초원이 이국적.\n- **추천 시간대**: 일출/일몰 시 최고의 포토스팟\n- **입장료**: 무료\n- **특징**: 드라이브 코스, 사진 촬영 명소\n- **추천 소요시간**: 1시간\n- **태그**: #풍력발전 #포토스팟 #일출 #드라이브",
-      "lat": 37.6800,
-      "lng": 128.7400,
-      "operating_hours": "24시간",
-      "admission_fee": "무료",
-      "duration_min": 60,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "photo,nature,couple"
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 해발 1,100m 국내 최대 풍력발전단지. 거대한 풍차와 초원이 이국적\n- **입장료**: 무료\n- **특징**: 드라이브 코스, 일출/일몰 포토스팟\n- **추천 소요시간**: 1시간",
+      "lat": 37.6800, "lng": 128.7400, "operating_hours": "24시간",
+      "admission_fee": "무료", "duration_min": 60,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "photo,nature,couple"
     },
     {
-      "id": 14,
-      "category_id": 4,
-      "region": "pyeongchang_eup",
+      "id": 14, "category_id": 4, "region": "pyeongchang_eup",
       "name": "평창송어축제",
-      "content": "- **위치**: 강원도 평창군 진부면 오대천 일원\n- **설명**: 매년 겨울 열리는 평창의 대표 축제. 얼음낚시, 맨손잡기 등 체험.\n- **개최기간**: 12월~2월\n- **입장료**: 성인 12,000원\n- **특징**: 송어 얼음낚시, 맨손잡기, 눈썰매장\n- **추천 소요시간**: 3~4시간\n- **태그**: #송어축제 #겨울축제 #얼음낚시 #체험",
-      "lat": 37.6450,
-      "lng": 128.5500,
-      "operating_hours": "09:00~18:00",
-      "admission_fee": "성인 12,000원",
-      "duration_min": 210,
-      "season_tags": "winter",
-      "style_tags": "family,activity",
-      "event_start": "12-01",
-      "event_end": "02-28"
+      "content": "- **위치**: 강원도 평창군 진부면 오대천 일원\n- **설명**: 매년 겨울 열리는 평창 대표 축제. 얼음낚시, 맨손잡기 등 체험\n- **입장료**: 성인 12,000원\n- **특징**: 송어 얼음낚시, 맨손잡기, 눈썰매장\n- **추천 소요시간**: 3~4시간",
+      "lat": 37.6450, "lng": 128.5500, "operating_hours": "09:00~18:00",
+      "admission_fee": "성인 12,000원", "duration_min": 210,
+      "season_tags": "winter", "style_tags": "family,activity",
+      "event_start": "12-01", "event_end": "02-28"
     },
     {
-      "id": 15,
-      "category_id": 4,
-      "region": "daegwallyeong",
+      "id": 15, "category_id": 4, "region": "daegwallyeong",
       "name": "대관령 눈꽃축제",
-      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 대관령의 겨울 설경을 배경으로 열리는 축제. 눈 조각, 눈썰매, 얼음조각 전시.\n- **개최기간**: 1월~2월\n- **입장료**: 무료 (체험비 별도)\n- **특징**: 눈조각 전시, 눈썰매장, 겨울 놀이\n- **추천 소요시간**: 2~3시간\n- **태그**: #눈꽃축제 #겨울 #눈조각 #눈썰매",
-      "lat": 37.6720,
-      "lng": 128.7200,
-      "operating_hours": "10:00~17:00",
-      "admission_fee": "무료",
-      "duration_min": 150,
-      "season_tags": "winter",
-      "style_tags": "family,photo",
-      "event_start": "01-01",
-      "event_end": "02-15"
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 대관령 겨울 설경을 배경으로 열리는 축제\n- **입장료**: 무료 (체험비 별도)\n- **특징**: 눈조각 전시, 눈썰매장, 겨울 놀이\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6720, "lng": 128.7200, "operating_hours": "10:00~17:00",
+      "admission_fee": "무료", "duration_min": 150,
+      "season_tags": "winter", "style_tags": "family,photo",
+      "event_start": "01-01", "event_end": "02-15"
     },
     {
-      "id": 16,
-      "category_id": 5,
-      "region": "daegwallyeong",
+      "id": 16, "category_id": 5, "region": "daegwallyeong",
       "name": "용평리조트 스키장",
-      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715\n- **설명**: 국내 대표 스키 리조트. 다양한 난이도의 슬로프 보유.\n- **운영시간**: 08:30~익일 02:00 (야간 스키 포함)\n- **가격대**: 리프트권 60,000~90,000원\n- **난이도**: 초급~상급\n- **특징**: 28면 슬로프, 야간 스키, 보드 가능\n- **추천 소요시간**: 반나절~1일\n- **태그**: #스키 #보드 #야간스키 #겨울스포츠",
-      "lat": 37.6443,
-      "lng": 128.6802,
-      "operating_hours": "08:30~익일 02:00 (시즌: 11월~3월)",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715\n- **설명**: 국내 대표 스키 리조트. 다양한 난이도의 28면 슬로프\n- **가격대**: 리프트권 60,000~90,000원\n- **특징**: 야간 스키, 보드 가능, 초급~상급\n- **추천 소요시간**: 반나절~1일",
+      "lat": 37.6443, "lng": 128.6802, "operating_hours": "08:30~익일 02:00 (시즌: 11월~3월)",
       "duration_min": 300,
-      "season_tags": "winter",
-      "style_tags": "ski,activity,couple"
+      "season_tags": "winter", "style_tags": "ski,activity,couple"
     },
     {
-      "id": 17,
-      "category_id": 5,
-      "region": "bongpyeong",
+      "id": 17, "category_id": 5, "region": "bongpyeong",
       "name": "흥정계곡 래프팅",
-      "content": "- **위치**: 강원도 평창군 봉평면 흥정계곡\n- **설명**: 여름철 인기 래프팅 코스. 맑은 계곡물과 자연경관이 일품.\n- **운영시간**: 09:00~17:00 (여름 시즌)\n- **가격대**: 1인 30,000~40,000원\n- **난이도**: 초급~중급\n- **연령제한**: 초등학생 이상\n- **특징**: 약 6km 코스, 계곡 물놀이\n- **태그**: #래프팅 #여름 #계곡 #액티비티",
-      "lat": 37.6200,
-      "lng": 128.3900,
-      "operating_hours": "09:00~17:00 (6~8월)",
+      "content": "- **위치**: 강원도 평창군 봉평면 흥정계곡\n- **설명**: 여름철 인기 래프팅 코스. 맑은 계곡물과 자연경관\n- **가격대**: 1인 30,000~40,000원\n- **특징**: 약 6km 코스, 초급~중급, 초등학생 이상\n- **추천 소요시간**: 2시간",
+      "lat": 37.6200, "lng": 128.3900, "operating_hours": "09:00~17:00 (6~8월)",
       "duration_min": 120,
-      "season_tags": "summer",
-      "style_tags": "activity,family"
+      "season_tags": "summer", "style_tags": "activity,family"
     },
     {
-      "id": 18,
-      "category_id": 6,
-      "region": "daegwallyeong",
+      "id": 18, "category_id": 6, "region": "daegwallyeong",
       "name": "평창 치즈공장 체험",
-      "content": "- **위치**: 강원도 평창군 대관령면\n- **설명**: 직접 치즈를 만들어보는 체험 프로그램. 아이들에게 인기.\n- **운영시간**: 10:00~16:00 (예약 필수)\n- **가격대**: 1인 15,000원\n- **대상연령**: 5세 이상\n- **최소인원**: 2명 이상\n- **특징**: 모짜렐라 치즈 만들기, 피자 만들기\n- **추천 소요시간**: 1.5시간\n- **태그**: #치즈체험 #가족 #체험학습 #만들기",
-      "lat": 37.6700,
-      "lng": 128.7000,
-      "operating_hours": "10:00~16:00",
+      "content": "- **위치**: 강원도 평창군 대관령면\n- **설명**: 직접 치즈를 만들어보는 체험 프로그램\n- **가격대**: 1인 15,000원\n- **특징**: 모짜렐라 치즈 만들기, 피자 만들기\n- **추천 소요시간**: 1.5시간",
+      "lat": 37.6700, "lng": 128.7000, "operating_hours": "10:00~16:00",
       "duration_min": 90,
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "family,culture"
+      "season_tags": "spring,summer,fall,winter", "style_tags": "family,culture"
     },
     {
-      "id": 19,
-      "category_id": 7,
-      "region": "daegwallyeong",
+      "id": 19, "category_id": 7, "region": "daegwallyeong",
       "name": "알펜시아 인터컨티넨탈 호텔",
-      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 325\n- **설명**: 알펜시아 리조트 내 5성급 호텔. 올림픽 시설과 인접.\n- **객실유형**: 디럭스, 스위트, 패밀리룸\n- **가격대**: 200,000~500,000원/박\n- **부대시설**: 수영장, 피트니스, 레스토랑, 스파\n- **특징**: 스키장 직접 연결, 산 전망\n- **태그**: #5성급 #리조트 #올림픽 #럭셔리",
-      "lat": 37.6580,
-      "lng": 128.6814,
-      "operating_hours": "체크인 15:00 / 체크아웃 11:00",
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "relax,couple,ski"
+      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 325\n- **설명**: 알펜시아 리조트 내 5성급 호텔\n- **객실유형**: 디럭스, 스위트, 패밀리룸\n- **가격대**: 200,000~500,000원/박\n- **부대시설**: 수영장, 피트니스, 레스토랑, 스파",
+      "lat": 37.6580, "lng": 128.6814, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "relax,couple,ski"
     },
     {
-      "id": 20,
-      "category_id": 7,
-      "region": "daegwallyeong",
+      "id": 20, "category_id": 7, "region": "daegwallyeong",
       "name": "용평리조트 타워콘도",
-      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715\n- **설명**: 용평리조트 내 콘도미니엄. 스키장과 곤돌라에 인접.\n- **객실유형**: 스튜디오, 스위트, 패밀리\n- **가격대**: 100,000~300,000원/박\n- **부대시설**: 워터파크, 피트니스, 편의점\n- **특징**: 가성비 좋은 리조트 숙박\n- **태그**: #콘도 #리조트 #가성비 #스키장인접",
-      "lat": 37.6443,
-      "lng": 128.6802,
-      "operating_hours": "체크인 15:00 / 체크아웃 11:00",
-      "season_tags": "spring,summer,fall,winter",
-      "style_tags": "family,ski,relax"
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715\n- **설명**: 용평리조트 내 콘도미니엄. 스키장과 곤돌라 인접\n- **객실유형**: 스튜디오, 스위트, 패밀리\n- **가격대**: 100,000~300,000원/박\n- **부대시설**: 워터파크, 피트니스, 편의점",
+      "lat": 37.6443, "lng": 128.6802, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "family,ski,relax"
     },
     {
-      "id": 21,
-      "category_id": 7,
-      "region": "bongpyeong",
+      "id": 21, "category_id": 7, "region": "bongpyeong",
       "name": "봉평 메밀꽃펜션",
-      "content": "- **위치**: 강원도 평창군 봉평면 흥정계곡 인근\n- **설명**: 조용한 자연 속 펜션. 계곡 접근 용이.\n- **객실유형**: 독채형 펜션\n- **가격대**: 80,000~150,000원/박\n- **부대시설**: BBQ장, 계곡 접근\n- **특징**: 조용한 환경, 바비큐 가능\n- **태그**: #펜션 #계곡 #자연 #바비큐",
-      "lat": 37.6150,
-      "lng": 128.3800,
-      "operating_hours": "체크인 15:00 / 체크아웃 11:00",
-      "season_tags": "spring,summer,fall",
-      "style_tags": "nature,couple,family,relax"
+      "content": "- **위치**: 강원도 평창군 봉평면 흥정계곡 인근\n- **설명**: 조용한 자연 속 펜션. 계곡 접근 용이\n- **객실유형**: 독채형 펜션\n- **가격대**: 80,000~150,000원/박\n- **부대시설**: BBQ장, 계곡 접근",
+      "lat": 37.6150, "lng": 128.3800, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall", "style_tags": "nature,couple,family,relax"
+    },
+    {
+      "id": 22, "category_id": 1, "region": "daegwallyeong",
+      "name": "평창 올림픽 플라자",
+      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 295\n- **설명**: 2018 평창 동계올림픽 개·폐회식이 열린 상징적 장소\n- **운영시간**: 09:00~18:00\n- **입장료**: 무료\n- **특징**: 올림픽 성화대, 기념 조형물, 포토존\n- **추천 소요시간**: 1~1.5시간",
+      "lat": 37.6562, "lng": 128.6756, "operating_hours": "09:00~18:00",
+      "admission_fee": "무료", "duration_min": 90,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "culture,photo,family"
+    },
+    {
+      "id": 23, "category_id": 1, "region": "bongpyeong",
+      "name": "병방치 스카이워크",
+      "content": "- **위치**: 강원특별자치도 평창군 봉평면 병방치길\n- **설명**: 해발 583m 절벽 위 유리 바닥 스카이워크. 봉평 들판과 산세를 한눈에 조망\n- **운영시간**: 09:00~18:00\n- **입장료**: 무료\n- **특징**: 유리 전망대, 출렁다리, 절경 포토스팟\n- **추천 소요시간**: 30분~1시간",
+      "lat": 37.6145, "lng": 128.4889, "operating_hours": "09:00~18:00",
+      "admission_fee": "무료", "duration_min": 45,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "nature,photo,couple,family"
+    },
+    {
+      "id": 24, "category_id": 1, "region": "bongpyeong",
+      "name": "이효석문학관 & 효석달빛언덕",
+      "content": "- **위치**: 강원특별자치도 평창군 봉평면 효석문학길 73-25\n- **설명**: 소설 '메밀꽃 필 무렵'의 작가 이효석 기념 문학관과 달빛언덕 산책로\n- **운영시간**: 09:00~18:00 (월요일 휴관)\n- **입장료**: 성인 2,000원\n- **특징**: 문학관 전시, 메밀꽃밭, 달빛언덕 야경\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.6307, "lng": 128.3732, "operating_hours": "09:00~18:00",
+      "admission_fee": "성인 2,000원", "duration_min": 90,
+      "season_tags": "spring,summer,fall", "style_tags": "culture,photo,couple"
+    },
+    {
+      "id": 25, "category_id": 1, "region": "bongpyeong",
+      "name": "휘닉스파크 루지랜드",
+      "content": "- **위치**: 강원특별자치도 평창군 봉평면 태기로 174 (휘닉스파크 리조트 내)\n- **설명**: 바퀴 달린 썰매를 타고 1.4km 트랙을 질주하는 스릴 액티비티\n- **운영시간**: 09:30~17:00\n- **이용료**: 성인 10,000원 (1회)\n- **특징**: 가족 탑승 가능, 사계절 운영\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.5840, "lng": 128.3230, "operating_hours": "09:30~17:00",
+      "admission_fee": "성인 10,000원", "duration_min": 90,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "activity,family,couple"
+    },
+    {
+      "id": 26, "category_id": 1, "region": "yongpyeong",
+      "name": "평창 스카이랜치",
+      "content": "- **위치**: 강원도 평창군 용평면 재산길 708\n- **설명**: 고원 목장과 하늘을 테마로 한 관광 목장. 승마, 동물 먹이주기 체험\n- **운영시간**: 09:00~18:00\n- **입장료**: 성인 8,000원\n- **특징**: 승마체험, 양·염소 먹이주기, 목장 트레킹\n- **추천 소요시간**: 2시간",
+      "lat": 37.6200, "lng": 128.6800, "operating_hours": "09:00~18:00",
+      "admission_fee": "성인 8,000원", "duration_min": 120,
+      "season_tags": "spring,summer,fall", "style_tags": "nature,family,photo"
+    },
+    {
+      "id": 27, "category_id": 1, "region": "pyeongchang_eup",
+      "name": "평창88송어횟집",
+      "content": "- **위치**: 강원도 평창군 미탄면 서동로 3713-8\n- **설명**: 54년 전통의 원복송어양식장 직영 송어회 전문점. 신선한 송어회와 매운탕\n- **운영시간**: 10:00~21:00\n- **대표메뉴**: 송어회, 송어매운탕, 송어구이\n- **특징**: 양식장 직영, 최상급 신선도\n- **추천 소요시간**: 1시간",
+      "lat": 37.4500, "lng": 128.5200, "operating_hours": "10:00~21:00",
+      "duration_min": 60,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "food,family"
+    },
+    {
+      "id": 28, "category_id": 1, "region": "jinbu",
+      "name": "오대산 국립공원",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산로\n- **설명**: 울창한 숲과 맑은 계곡의 국립공원. 비로봉(1,563m) 등 다양한 등산 코스\n- **운영시간**: 일출~일몰\n- **입장료**: 무료 (문화재 관람료 별도)\n- **특징**: 비로봉 등산, 전나무숲, 계곡 트레킹\n- **추천 소요시간**: 3~6시간",
+      "lat": 37.7800, "lng": 128.5400, "operating_hours": "일출~일몰",
+      "admission_fee": "무료", "duration_min": 240,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "nature,hiking,photo"
+    },
+    {
+      "id": 29, "category_id": 1, "region": "yongpyeong",
+      "name": "발왕산 케이블카",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715 (용평리조트 내)\n- **설명**: 해발 1,458m 발왕산 정상까지 3.7km 곤돌라. 천년주목숲 탐방\n- **운영시간**: 09:00~16:30\n- **이용료**: 왕복 성인 22,000원\n- **특징**: 천년주목숲길, 스카이워크, 사계절 절경\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6443, "lng": 128.6802, "operating_hours": "09:00~16:30",
+      "admission_fee": "왕복 성인 22,000원", "duration_min": 150,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "nature,photo,couple,family"
+    },
+    {
+      "id": 30, "category_id": 1, "region": "pyeongchang_eup",
+      "name": "백룡동굴",
+      "content": "- **위치**: 강원도 평창군 미탄면 백룡동굴길 100\n- **설명**: 신비로운 석회암 동굴. 모노레일 타고 진입하는 국내 유일 체험형 동굴\n- **운영시간**: 09:00~16:00 (월요일 휴관)\n- **입장료**: 성인 15,000원\n- **특징**: 모노레일 진입, 종유석·석순 관람, 동굴탐험\n- **추천 소요시간**: 2시간",
+      "lat": 37.4300, "lng": 128.5100, "operating_hours": "09:00~16:00",
+      "admission_fee": "성인 15,000원", "duration_min": 120,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "family,culture,adventure"
+    },
+    {
+      "id": 31, "category_id": 1, "region": "bongpyeong",
+      "name": "트리고 평창 (Trigo Pyeongchang)",
+      "content": "- **위치**: 평창 휘닉스스파크 인근, 태기로 상권\n- **설명**: 평창 휘팍 카페 순위 1위. 감각적인 인테리어와 베이커리 카페\n- **운영시간**: 10:00~21:00\n- **특징**: 시그니처 음료, 베이커리, 인스타 핫플\n- **추천 소요시간**: 1시간",
+      "lat": 37.5850, "lng": 128.3260, "operating_hours": "10:00~21:00",
+      "duration_min": 60,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "couple,photo,relax"
+    },
+    {
+      "id": 32, "category_id": 1, "region": "pyeongchang_eup",
+      "name": "평창강 래프팅",
+      "content": "- **위치**: 강원도 평창군 미탄면 평창강 일대\n- **설명**: 청정 계곡에서 즐기는 래프팅. 아름다운 자연경관과 스릴\n- **운영시간**: 09:00~17:00 (6~9월 시즌)\n- **이용료**: 1인 30,000~40,000원\n- **특징**: 약 7km 코스, 가족 단위 참여 가능\n- **추천 소요시간**: 2시간",
+      "lat": 37.4400, "lng": 128.5300, "operating_hours": "09:00~17:00 (6~9월)",
+      "duration_min": 120,
+      "season_tags": "summer", "style_tags": "activity,family,nature"
+    },
+    {
+      "id": 33, "category_id": 1, "region": "pyeongchang_eup",
+      "name": "평창보타닉가든",
+      "content": "- **위치**: 강원특별자치도 평창군 방림면 고원로 63\n- **설명**: 해발 700m 고원에 조성된 식물원. 다양한 고산 식물과 정원 전시\n- **운영시간**: 09:00~18:00\n- **입장료**: 성인 9,000원\n- **특징**: 고산식물원, 체험정원, 산책로, 포토존\n- **추천 소요시간**: 1.5시간",
+      "lat": 37.4967, "lng": 128.4361, "operating_hours": "09:00~18:00",
+      "admission_fee": "성인 9,000원", "duration_min": 90,
+      "season_tags": "spring,summer,fall", "style_tags": "nature,photo,couple,family"
+    },
+    {
+      "id": 34, "category_id": 1, "region": "daegwallyeong",
+      "name": "이승복기념관",
+      "content": "- **위치**: 강원도 평창군 대관령면 이승복로 103\n- **설명**: 반공 소년 이승복을 기리는 기념관. 역사 교육 공간\n- **운영시간**: 09:00~18:00 (월요일 휴관)\n- **입장료**: 무료\n- **특징**: 전시관, 교육 프로그램, 역사 학습\n- **추천 소요시간**: 1시간",
+      "lat": 37.6750, "lng": 128.7300, "operating_hours": "09:00~18:00",
+      "admission_fee": "무료", "duration_min": 60,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "culture,family"
+    },
+    {
+      "id": 35, "category_id": 1, "region": "daegwallyeong",
+      "name": "한국자생식물원",
+      "content": "- **위치**: 강원도 평창군 대관령면 병내리길 177\n- **설명**: 국내 최대 자생식물 전문 식물원. 야생화와 고산식물 관람\n- **운영시간**: 09:00~18:00 (동절기 ~17:00)\n- **입장료**: 성인 8,500원\n- **특징**: 야생화 군락, 고산식물원, 숲 산책로\n- **추천 소요시간**: 1.5시간",
+      "lat": 37.6600, "lng": 128.7200, "operating_hours": "09:00~18:00",
+      "admission_fee": "성인 8,500원", "duration_min": 90,
+      "season_tags": "spring,summer,fall", "style_tags": "nature,photo,couple"
+    },
+    {
+      "id": 36, "category_id": 1, "region": "daegwallyeong",
+      "name": "대관령자연휴양림",
+      "content": "- **위치**: 강원도 평창군 대관령면 수하리\n- **설명**: 울창한 소나무 숲으로 둘러싸인 자연휴양림. 힐링 산책과 삼림욕\n- **운영시간**: 09:00~18:00\n- **입장료**: 성인 1,000원\n- **특징**: 숲속의집 숙박, 산책로, 삼림욕장\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6900, "lng": 128.7600, "operating_hours": "09:00~18:00",
+      "admission_fee": "성인 1,000원", "duration_min": 150,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "nature,hiking,relax,family"
+    },
+    {
+      "id": 37, "category_id": 1, "region": "jinbu",
+      "name": "상원사",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산로 1211-14\n- **설명**: 오대산 깊은 곳에 자리한 고찰. 국보 동종과 문수동자상 보유\n- **운영시간**: 일출~일몰\n- **입장료**: 오대산 입장료 포함\n- **특징**: 국보 제36호 동종, 문수동자상, 적멸보궁\n- **추천 소요시간**: 2시간",
+      "lat": 37.7600, "lng": 128.5600, "operating_hours": "일출~일몰",
+      "admission_fee": "오대산 입장료 포함", "duration_min": 120,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "culture,nature,hiking"
+    },
+    {
+      "id": 38, "category_id": 1, "region": "daegwallyeong",
+      "name": "대관령박물관",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 696\n- **설명**: 대관령 지역의 역사와 문화를 전시하는 박물관\n- **운영시간**: 09:00~18:00 (월요일 휴관)\n- **입장료**: 성인 3,000원\n- **특징**: 대관령 역사, 민속 유물, 올림픽 기념\n- **추천 소요시간**: 1시간",
+      "lat": 37.6650, "lng": 128.7050, "operating_hours": "09:00~18:00",
+      "admission_fee": "성인 3,000원", "duration_min": 60,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "culture,family"
+    },
+    {
+      "id": 39, "category_id": 1, "region": "jinbu",
+      "name": "방아다리약수",
+      "content": "- **위치**: 강원도 평창군 진부면 방아다리길\n- **설명**: 탄산과 철분이 풍부한 천연 약수터. 등산과 함께 약수 체험\n- **운영시간**: 상시 개방\n- **입장료**: 무료\n- **특징**: 천연 탄산 약수, 숲길 산책, 힐링\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.7100, "lng": 128.5800, "operating_hours": "상시 개방",
+      "admission_fee": "무료", "duration_min": 90,
+      "season_tags": "spring,summer,fall", "style_tags": "nature,hiking,relax"
+    },
+    {
+      "id": 40, "category_id": 1, "region": "bongpyeong",
+      "name": "금당계곡",
+      "content": "- **위치**: 강원도 평창군 봉평면 금당계곡로\n- **설명**: 맑은 물과 기암괴석이 어우러진 아름다운 계곡. 여름 물놀이 명소\n- **운영시간**: 상시 개방\n- **입장료**: 무료\n- **특징**: 물놀이, 계곡 트레킹, 오토캠핑\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.5900, "lng": 128.3600, "operating_hours": "상시 개방",
+      "admission_fee": "무료", "duration_min": 150,
+      "season_tags": "summer", "style_tags": "nature,family,activity"
+    },
+    {
+      "id": 41, "category_id": 1, "region": "pyeongchang_eup",
+      "name": "노동계곡",
+      "content": "- **위치**: 강원도 평창군 평창읍 노동리\n- **설명**: 평창읍 인근 청정 계곡. 가족 물놀이와 계곡 캠핑으로 유명\n- **운영시간**: 상시 개방\n- **입장료**: 무료\n- **특징**: 얕은 수심, 가족 물놀이, 캠핑장 인접\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.3800, "lng": 128.4100, "operating_hours": "상시 개방",
+      "admission_fee": "무료", "duration_min": 150,
+      "season_tags": "summer", "style_tags": "nature,family,activity"
+    },
+    {
+      "id": 42, "category_id": 2, "region": "bongpyeong",
+      "name": "메밀꽃필무렵",
+      "content": "- **위치**: 강원도 평창군 봉평면 효석문학길 36\n- **설명**: 이효석 문학관 인근 메밀 전문 식당. 봉평 대표 맛집\n- **운영시간**: 10:30~20:00\n- **대표메뉴**: 메밀전병, 메밀막국수, 메밀칼국수\n- **특징**: 소설 속 배경지 인근, 메밀꽃밭 전망",
+      "lat": 37.6290, "lng": 128.3730, "operating_hours": "10:30~20:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food,couple"
+    },
+    {
+      "id": 43, "category_id": 2, "region": "bongpyeong",
+      "name": "고향막국수",
+      "content": "- **위치**: 강원도 평창군 봉평면 기풍로 11\n- **설명**: 봉평 메밀막국수의 원조격 맛집. 담백한 메밀 향이 일품\n- **운영시간**: 09:30~19:30\n- **대표메뉴**: 메밀막국수, 감자전, 수육\n- **특징**: 50년 전통, 현지인 추천 맛집",
+      "lat": 37.6110, "lng": 128.3740, "operating_hours": "09:30~19:30",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food,family"
+    },
+    {
+      "id": 44, "category_id": 2, "region": "daegwallyeong",
+      "name": "대관령한우타운",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 45\n- **설명**: 횡계리 대표 한우 전문 식당. 프리미엄 대관령 한우 제공\n- **운영시간**: 11:00~21:30\n- **대표메뉴**: 한우등심, 한우갈비, 육회\n- **특징**: 대관령 한우 직영, 최상급 1++ 등급",
+      "lat": 37.6710, "lng": 128.7120, "operating_hours": "11:00~21:30",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "food,couple,family"
+    },
+    {
+      "id": 45, "category_id": 2, "region": "bongpyeong",
+      "name": "봉평메밀 미가연",
+      "content": "- **위치**: 강원도 평창군 봉평면 기풍로 45\n- **설명**: 수제 메밀면 전문점. 깔끔한 인테리어와 정갈한 메밀 요리\n- **운영시간**: 10:00~20:00 (수요일 휴무)\n- **대표메뉴**: 물메밀, 비빔메밀, 메밀전병\n- **특징**: 직접 제분한 메밀가루 사용, 정갈한 맛",
+      "lat": 37.6105, "lng": 128.3760, "operating_hours": "10:00~20:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food,couple"
+    },
+    {
+      "id": 46, "category_id": 2, "region": "bongpyeong",
+      "name": "정가네 메밀막국수",
+      "content": "- **위치**: 강원도 평창군 봉평면 원길리\n- **설명**: 봉평 5일장 인근 토속 막국수집. 현지인 단골 맛집\n- **운영시간**: 10:00~19:00\n- **대표메뉴**: 메밀막국수, 메밀전, 두부\n- **특징**: 직접 재배한 메밀 사용, 토속 분위기",
+      "lat": 37.6120, "lng": 128.3780, "operating_hours": "10:00~19:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food"
+    },
+    {
+      "id": 47, "category_id": 2, "region": "pyeongchang_eup",
+      "name": "평창한우마을",
+      "content": "- **위치**: 강원도 평창군 평창읍 종부로 16\n- **설명**: 평창읍내 한우 전문 식당 밀집 지역. 합리적 가격의 한우 제공\n- **운영시간**: 11:00~21:00\n- **대표메뉴**: 한우구이, 한우불고기, 한우육회\n- **특징**: 평창 축협 직영, 신선한 한우",
+      "lat": 37.3700, "lng": 128.3920, "operating_hours": "11:00~21:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "food,family"
+    },
+    {
+      "id": 48, "category_id": 2, "region": "bongpyeong",
+      "name": "이효석의 메밀꽃향기",
+      "content": "- **위치**: 강원도 평창군 봉평면 효석문학길 42\n- **설명**: 문학관 거리에 위치한 메밀 요리 카페형 식당\n- **운영시간**: 10:00~19:00\n- **대표메뉴**: 메밀크레이프, 메밀라떼, 메밀전병\n- **특징**: 카페 분위기, 디저트형 메밀 요리",
+      "lat": 37.6300, "lng": 128.3725, "operating_hours": "10:00~19:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food,couple,photo"
+    },
+    {
+      "id": 49, "category_id": 2, "region": "daegwallyeong",
+      "name": "횡계 대관령한우프라자",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리 올림픽로\n- **설명**: 횡계 시내 중심가 한우 전문 식당. 가성비 좋은 한우 코스\n- **운영시간**: 11:00~22:00\n- **대표메뉴**: 한우모둠, 한우갈비탕, 육회비빔밥\n- **특징**: 대관령 횡계 맛집, 단체석 가능",
+      "lat": 37.6690, "lng": 128.7090, "operating_hours": "11:00~22:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "food,family"
+    },
+    {
+      "id": 50, "category_id": 2, "region": "jinbu",
+      "name": "진부시장 메밀전 골목",
+      "content": "- **위치**: 강원도 평창군 진부면 진부시장 내\n- **설명**: 진부 5일장(3일, 8일) 내 메밀전·감자전 골목\n- **운영시간**: 08:00~18:00 (장날 특히 활기)\n- **대표메뉴**: 메밀전, 감자전, 메밀총떡\n- **특징**: 전통 시장 분위기, 즉석 부침개",
+      "lat": 37.6510, "lng": 128.5620, "operating_hours": "08:00~18:00",
+      "duration_min": 45, "season_tags": "spring,summer,fall,winter", "style_tags": "food,culture,family"
+    },
+    {
+      "id": 51, "category_id": 2, "region": "bongpyeong",
+      "name": "봉평촌막국수",
+      "content": "- **위치**: 강원도 평창군 봉평면 봉평리\n- **설명**: 가정집 개조한 아담한 막국수 전문점. 숨은 맛집\n- **운영시간**: 10:30~17:00 (재료 소진시 조기마감)\n- **대표메뉴**: 물막국수, 비빔막국수, 수육\n- **특징**: 소량 한정판매, 수제 면발의 쫄깃함",
+      "lat": 37.6095, "lng": 128.3770, "operating_hours": "10:30~17:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food"
+    },
+    {
+      "id": 52, "category_id": 2, "region": "bongpyeong",
+      "name": "흥정두부마을",
+      "content": "- **위치**: 강원도 평창군 봉평면 흥정리\n- **설명**: 흥정계곡 인근 손두부 전문 마을 식당\n- **운영시간**: 10:00~19:00\n- **대표메뉴**: 손두부, 두부전골, 순두부찌개\n- **특징**: 직접 만든 손두부, 계곡 전망 식사",
+      "lat": 37.6180, "lng": 128.3850, "operating_hours": "10:00~19:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food,nature,family"
+    },
+    {
+      "id": 53, "category_id": 2, "region": "daegwallyeong",
+      "name": "대관령 양고기 마을",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 대관령 목장 양고기 전문점. 이국적인 양고기 바비큐\n- **운영시간**: 11:30~21:00\n- **대표메뉴**: 양갈비, 양고기구이, 양 떡갈비\n- **특징**: 대관령 목장 직송, 잡내 없는 양고기",
+      "lat": 37.6680, "lng": 128.7130, "operating_hours": "11:30~21:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "food,couple"
+    },
+    {
+      "id": 54, "category_id": 2, "region": "daegwallyeong",
+      "name": "대관령황태회관",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 15\n- **설명**: 대관령 명물 황태 전문 식당. 해장국부터 구이까지 다양\n- **운영시간**: 07:00~21:00\n- **대표메뉴**: 황태해장국, 황태구이, 황태전골\n- **특징**: 대관령 전통 건조 황태, 아침식사 추천",
+      "lat": 37.6670, "lng": 128.7080, "operating_hours": "07:00~21:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food"
+    },
+    {
+      "id": 55, "category_id": 2, "region": "daegwallyeong",
+      "name": "횡계숯불갈비",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 횡계 시내 숯불갈비 전문점. 연기 자욱한 정통 숯불구이\n- **운영시간**: 11:00~22:00\n- **대표메뉴**: 돼지갈비, 한우갈비, 냉면\n- **특징**: 정통 숯불 화로 구이, 넉넉한 양",
+      "lat": 37.6700, "lng": 128.7110, "operating_hours": "11:00~22:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "food,family"
+    },
+    {
+      "id": 56, "category_id": 2, "region": "daegwallyeong",
+      "name": "올림픽로한우촌",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 35\n- **설명**: 올림픽로 한우 전문 맛집. 넓은 좌석과 단체 예약 가능\n- **운영시간**: 11:00~21:30\n- **대표메뉴**: 한우 꽃등심, 차돌박이, 갈비탕\n- **특징**: 넓은 주차장, 관광버스 수용 가능",
+      "lat": 37.6720, "lng": 128.7100, "operating_hours": "11:00~21:30",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "food,family"
+    },
+    {
+      "id": 57, "category_id": 2, "region": "bongpyeong",
+      "name": "메밀장터국수",
+      "content": "- **위치**: 강원도 평창군 봉평면 봉평장터길\n- **설명**: 봉평 5일장 인근 메밀국수 전문점\n- **운영시간**: 09:00~18:00\n- **대표메뉴**: 메밀국수, 메밀전병, 감자옹심이\n- **특징**: 장터 분위기, 저렴한 가격",
+      "lat": 37.6115, "lng": 128.3755, "operating_hours": "09:00~18:00",
+      "duration_min": 45, "season_tags": "spring,summer,fall,winter", "style_tags": "food"
+    },
+    {
+      "id": 58, "category_id": 2, "region": "bongpyeong",
+      "name": "미락식당",
+      "content": "- **위치**: 강원도 평창군 봉평면 기풍로\n- **설명**: 봉평 로컬 한식 맛집. 다양한 백반과 찌개류 제공\n- **운영시간**: 10:00~20:00\n- **대표메뉴**: 된장찌개백반, 제육볶음, 생선구이\n- **특징**: 가정식 백반, 현지인 단골 맛집",
+      "lat": 37.6108, "lng": 128.3745, "operating_hours": "10:00~20:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food,family"
+    },
+    {
+      "id": 59, "category_id": 2, "region": "pyeongchang_eup",
+      "name": "평창삼거리식당",
+      "content": "- **위치**: 강원도 평창군 평창읍 평창시장길\n- **설명**: 평창읍 오래된 한식 백반 식당. 정갈한 밑반찬이 인기\n- **운영시간**: 07:00~20:00\n- **대표메뉴**: 백반정식, 된장찌개, 감자옹심이\n- **특징**: 40년 전통, 정갈한 한식 밑반찬",
+      "lat": 37.3720, "lng": 128.3910, "operating_hours": "07:00~20:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food"
+    },
+    {
+      "id": 60, "category_id": 2, "region": "jinbu",
+      "name": "콩이랑팥이랑",
+      "content": "- **위치**: 강원도 평창군 진부면 경강로\n- **설명**: 국산 콩으로 만든 두부 요리 전문점\n- **운영시간**: 10:00~20:00 (월요일 휴무)\n- **대표메뉴**: 모두부, 두부김치, 순두부찌개\n- **특징**: 직접 만든 수제 두부, 건강식",
+      "lat": 37.6520, "lng": 128.5610, "operating_hours": "10:00~20:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "food,family"
+    },
+    {
+      "id": 61, "category_id": 2, "region": "pyeongchang_eup",
+      "name": "한올가",
+      "content": "- **위치**: 강원도 평창군 평창읍 종부로\n- **설명**: 한우 오마카세 스타일의 고급 한우 다이닝\n- **운영시간**: 11:30~21:00 (예약 추천)\n- **대표메뉴**: 한우 오마카세, 한우 스테이크, 와인\n- **특징**: 프리미엄 한우, 감각적 플레이팅",
+      "lat": 37.3730, "lng": 128.3930, "operating_hours": "11:30~21:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "food,couple"
+    },
+    {
+      "id": 62, "category_id": 3, "region": "bongpyeong",
+      "name": "이효석문학관 메밀꽃밭",
+      "content": "- **위치**: 강원도 평창군 봉평면 효석문학길 73-25\n- **설명**: 이효석 소설 '메밀꽃 필 무렵' 배경지. 9월 만개하는 메밀꽃밭이 장관\n- **촬영작품**: 각종 드라마·영화 촬영지\n- **베스트 시즌**: 8~9월 메밀꽃 만개 시기\n- **특징**: 메밀꽃밭 포토존, 문학 산책로",
+      "lat": 37.6307, "lng": 128.3732, "operating_hours": "일출~일몰", "admission_fee": "무료", "duration_min": 60,
+      "season_tags": "summer,fall", "style_tags": "photo,nature,couple"
+    },
+    {
+      "id": 63, "category_id": 3, "region": "daegwallyeong",
+      "name": "대관령 삼양목장 초원",
+      "content": "- **위치**: 강원도 평창군 대관령면 꽃밭양지길 708-9\n- **설명**: 드넓은 초원과 풍력발전기가 이국적 풍경. CF·영화 촬영 명소\n- **촬영작품**: 다수 CF, 뮤직비디오 촬영지\n- **베스트 시즌**: 봄~가을 초원 풍경\n- **특징**: 유럽풍 초원, 일출·일몰 명소",
+      "lat": 37.6889, "lng": 128.7336, "operating_hours": "09:00~17:30", "admission_fee": "성인 12,000원", "duration_min": 90,
+      "season_tags": "spring,summer,fall", "style_tags": "photo,nature,couple"
+    },
+    {
+      "id": 64, "category_id": 3, "region": "jinbu",
+      "name": "월정사 전나무숲길",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산로 374-8\n- **설명**: 1km 길이의 아름다운 전나무 숲 터널. 드라마·영화 단골 촬영지\n- **촬영작품**: 도깨비, 미스터 션샤인 등 다수\n- **베스트 시즌**: 사계절 (겨울 설경 특히 인기)\n- **특징**: 전나무 천년 숲길, 명상 산책로",
+      "lat": 37.7300, "lng": 128.5900, "operating_hours": "일출~일몰", "admission_fee": "성인 3,000원", "duration_min": 60,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "photo,nature,culture"
+    },
+    {
+      "id": 65, "category_id": 3, "region": "yongpyeong",
+      "name": "발왕산 천년주목숲",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715 (곤돌라 정상)\n- **설명**: 해발 1,458m 발왕산 정상의 천년 주목 군락지. 신비로운 분위기\n- **촬영작품**: 다큐멘터리, 사진작가 촬영 명소\n- **베스트 시즌**: 겨울 상고대, 가을 단풍\n- **특징**: 천년 주목, 스카이워크, 운해 촬영",
+      "lat": 37.6443, "lng": 128.6802, "operating_hours": "09:00~16:30", "admission_fee": "곤돌라 왕복 22,000원", "duration_min": 120,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "photo,nature,hiking"
+    },
+    {
+      "id": 66, "category_id": 3, "region": "bongpyeong",
+      "name": "봉평 흥정계곡",
+      "content": "- **위치**: 강원도 평창군 봉평면 흥정계곡\n- **설명**: 맑은 물이 흐르는 청정 계곡. 여름 드라마 촬영 단골 로케이션\n- **촬영작품**: 여름 시즌 드라마 배경\n- **베스트 시즌**: 여름 (물놀이 장면)\n- **특징**: 에메랄드빛 계곡, 자연 그대로의 풍경",
+      "lat": 37.6200, "lng": 128.3900, "operating_hours": "상시 개방", "admission_fee": "무료", "duration_min": 60,
+      "season_tags": "summer", "style_tags": "photo,nature"
+    },
+    {
+      "id": 67, "category_id": 3, "region": "daegwallyeong",
+      "name": "대관령 옛길",
+      "content": "- **위치**: 강원도 평창군 대관령면 반정골길\n- **설명**: 조선시대부터 이어진 고갯길. 울창한 숲길이 영화·드라마 촬영 배경\n- **촬영작품**: 사극 드라마, 역사 다큐 촬영지\n- **베스트 시즌**: 가을 단풍, 겨울 설경\n- **특징**: 역사적 고갯길, 약 6km 숲길",
+      "lat": 37.6850, "lng": 128.7350, "operating_hours": "상시 개방", "admission_fee": "무료", "duration_min": 120,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "photo,nature,hiking,culture"
+    },
+    {
+      "id": 68, "category_id": 3, "region": "daegwallyeong",
+      "name": "평창올림픽플라자 야경",
+      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 295\n- **설명**: 올림픽 성화대와 조형물의 야경이 환상적. 야간 촬영 명소\n- **촬영작품**: 올림픽 관련 다큐·뉴스 촬영\n- **베스트 시즌**: 사계절 (야간 추천)\n- **특징**: 성화대 야경, LED 조명 연출",
+      "lat": 37.6562, "lng": 128.6756, "operating_hours": "24시간 (외부)", "admission_fee": "무료", "duration_min": 60,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "photo,culture"
+    },
+    {
+      "id": 69, "category_id": 3, "region": "bongpyeong",
+      "name": "허브나라 꽃정원",
+      "content": "- **위치**: 강원도 평창군 봉평면 흥정계곡길 225\n- **설명**: 계절별 꽃과 허브가 만발하는 유럽풍 정원. 웨딩 촬영 인기\n- **촬영작품**: 웨딩 촬영, 뮤직비디오, 광고\n- **베스트 시즌**: 봄~가을 꽃 시즌\n- **특징**: 유럽풍 정원, 다양한 포토존",
+      "lat": 37.5975, "lng": 128.3817, "operating_hours": "09:00~18:00", "admission_fee": "성인 7,000원", "duration_min": 90,
+      "season_tags": "spring,summer,fall", "style_tags": "photo,couple,nature"
+    },
+    {
+      "id": 70, "category_id": 3, "region": "daegwallyeong",
+      "name": "대관령 양떼목장 설경",
+      "content": "- **위치**: 강원도 평창군 대관령면 대관령마루길 483-32\n- **설명**: 겨울철 눈 덮인 초원과 양들의 동화 같은 풍경\n- **촬영작품**: 겨울 드라마·CF 촬영 명소\n- **베스트 시즌**: 겨울 (12~2월 설경)\n- **특징**: 동화 같은 겨울 풍경, 양과 설원",
+      "lat": 37.6847, "lng": 128.7265, "operating_hours": "09:00~17:00", "admission_fee": "성인 6,000원", "duration_min": 60,
+      "season_tags": "winter", "style_tags": "photo,nature,couple"
+    },
+    {
+      "id": 71, "category_id": 3, "region": "other",
+      "name": "육백마지기 고랭지 배추밭",
+      "content": "- **위치**: 강원도 평창군 미탄면 청옥산 육백마지기\n- **설명**: 해발 1,100m 고랭지 배추밭의 장엄한 풍경. 초록 물결 파노라마\n- **촬영작품**: 광고·다큐·항공 촬영 명소\n- **베스트 시즌**: 6~8월 배추밭 초록 물결\n- **특징**: 드론 촬영 명소, 해질녘 황금빛",
+      "lat": 37.4500, "lng": 128.5600, "operating_hours": "상시 개방", "admission_fee": "무료", "duration_min": 60,
+      "season_tags": "summer", "style_tags": "photo,nature"
+    },
+    {
+      "id": 72, "category_id": 3, "region": "jinbu",
+      "name": "오대산 비로봉 운해",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산 비로봉(1,563m)\n- **설명**: 오대산 최고봉에서 바라보는 운해와 일출이 장관\n- **촬영작품**: 산악 다큐, 풍경 사진 촬영\n- **베스트 시즌**: 가을 일출, 겨울 상고대\n- **특징**: 운해, 일출, 상고대 촬영 명소",
+      "lat": 37.7800, "lng": 128.5400, "operating_hours": "일출~일몰", "admission_fee": "무료", "duration_min": 300,
+      "season_tags": "fall,winter", "style_tags": "photo,nature,hiking"
+    },
+    {
+      "id": 73, "category_id": 3, "region": "pyeongchang_eup",
+      "name": "백룡동굴 내부",
+      "content": "- **위치**: 강원도 평창군 미탄면 백룡동굴길 100\n- **설명**: 석회암 동굴 내부의 신비로운 종유석·석순 풍경\n- **촬영작품**: 판타지 영화·다큐 촬영 배경\n- **베스트 시즌**: 사계절 (동굴 내부)\n- **특징**: 조명 연출된 동굴, 신비로운 분위기",
+      "lat": 37.4300, "lng": 128.5100, "operating_hours": "09:00~16:00", "admission_fee": "성인 15,000원", "duration_min": 90,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "photo,culture"
+    },
+    {
+      "id": 74, "category_id": 3, "region": "bongpyeong",
+      "name": "봉평 메밀꽃밭길",
+      "content": "- **위치**: 강원도 평창군 봉평면 효석문학길 일대\n- **설명**: 9월이면 하얗게 피어나는 메밀꽃밭 산책로. 몽환적 풍경\n- **촬영작품**: 드라마·영화 가을 장면 촬영지\n- **베스트 시즌**: 8~9월 메밀꽃 만개기\n- **특징**: 달빛 아래 메밀꽃밭, 효석문화제 배경",
+      "lat": 37.6300, "lng": 128.3740, "operating_hours": "상시 개방", "admission_fee": "무료", "duration_min": 60,
+      "season_tags": "summer,fall", "style_tags": "photo,nature,couple"
+    },
+    {
+      "id": 75, "category_id": 3, "region": "daegwallyeong",
+      "name": "대관령 하늘목장 풍차",
+      "content": "- **위치**: 강원도 평창군 대관령면 꽃밭양지길 458-23\n- **설명**: 해발 1,014m 풍차와 초원이 어우러진 목가적 풍경\n- **촬영작품**: CF, 뮤직비디오, SNS 촬영 명소\n- **베스트 시즌**: 봄~가을 초원\n- **특징**: 풍차 포토존, 트랙터 마차, 목장 전경",
+      "lat": 37.6950, "lng": 128.7500, "operating_hours": "09:00~17:30", "admission_fee": "성인 10,000원", "duration_min": 90,
+      "season_tags": "spring,summer,fall", "style_tags": "photo,nature,couple"
+    },
+    {
+      "id": 76, "category_id": 3, "region": "bongpyeong",
+      "name": "금당계곡 기암괴석",
+      "content": "- **위치**: 강원도 평창군 봉평면 금당계곡로\n- **설명**: 기암괴석과 에메랄드빛 계곡물이 어우러진 비경\n- **촬영작품**: 자연 다큐, 관광 홍보 영상\n- **베스트 시즌**: 여름 계곡물, 가을 단풍\n- **특징**: 기암괴석, 맑은 계곡, 자연 원시림",
+      "lat": 37.5900, "lng": 128.3600, "operating_hours": "상시 개방", "admission_fee": "무료", "duration_min": 60,
+      "season_tags": "summer,fall", "style_tags": "photo,nature"
+    },
+    {
+      "id": 77, "category_id": 3, "region": "pyeongchang_eup",
+      "name": "평창 무이예술관",
+      "content": "- **위치**: 강원도 평창군 봉평면 사리평길 233\n- **설명**: 자연 속 현대미술 갤러리. 건축물 자체가 작품인 아트 공간\n- **촬영작품**: 건축·예술 다큐, 잡지 화보\n- **베스트 시즌**: 사계절\n- **특징**: 현대건축, 조각공원, 갤러리 카페",
+      "lat": 37.6000, "lng": 128.3500, "operating_hours": "10:00~18:00", "admission_fee": "성인 10,000원", "duration_min": 90,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "photo,culture,couple"
+    },
+    {
+      "id": 78, "category_id": 3, "region": "daegwallyeong",
+      "name": "횡계시내 벽화거리",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리 시내\n- **설명**: 횡계 시내 골목에 그려진 다채로운 벽화. 인생사진 명소\n- **촬영작품**: SNS 촬영, 여행 프로그램\n- **베스트 시즌**: 사계절\n- **특징**: 다양한 벽화, 골목 투어, 무료 관람",
+      "lat": 37.6700, "lng": 128.7100, "operating_hours": "상시 개방", "admission_fee": "무료", "duration_min": 30,
+      "season_tags": "spring,summer,fall,winter", "style_tags": "photo,culture"
+    },
+    {
+      "id": 79, "category_id": 3, "region": "yongpyeong",
+      "name": "용평리조트 곤돌라 전경",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715\n- **설명**: 곤돌라에서 내려다보는 대관령 산세와 리조트 전경\n- **촬영작품**: 관광 홍보 영상, 여행 브이로그\n- **베스트 시즌**: 가을 단풍, 겨울 설경\n- **특징**: 3.7km 곤돌라, 파노라마 뷰",
+      "lat": 37.6443, "lng": 128.6802, "operating_hours": "09:00~16:30", "admission_fee": "왕복 22,000원", "duration_min": 60,
+      "season_tags": "fall,winter", "style_tags": "photo,nature"
+    },
+    {
+      "id": 80, "category_id": 3, "region": "jinbu",
+      "name": "상원사 겨울 설경",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산로 1211-14\n- **설명**: 눈 덮인 오대산 상원사의 고즈넉한 겨울 풍경\n- **촬영작품**: 겨울 사극, 명상·힐링 다큐\n- **베스트 시즌**: 겨울 (12~2월)\n- **특징**: 눈 덮인 사찰, 겨울 숲길, 고요함",
+      "lat": 37.7600, "lng": 128.5600, "operating_hours": "일출~일몰", "admission_fee": "오대산 입장료", "duration_min": 90,
+      "season_tags": "winter", "style_tags": "photo,nature,culture"
+    },
+    {
+      "id": 81, "category_id": 3, "region": "bongpyeong",
+      "name": "병방치 전망 파노라마",
+      "content": "- **위치**: 강원도 평창군 봉평면 병방치길\n- **설명**: 스카이워크에서 내려다보는 봉평 들판의 광활한 파노라마 뷰\n- **촬영작품**: 항공 촬영, 관광 홍보 영상\n- **베스트 시즌**: 봄 신록, 가을 단풍\n- **특징**: 파노라마 전망, 유리 바닥 스릴",
+      "lat": 37.6145, "lng": 128.4889, "operating_hours": "09:00~18:00", "admission_fee": "무료", "duration_min": 30,
+      "season_tags": "spring,summer,fall", "style_tags": "photo,nature"
+    },
+    {
+      "id": 82, "category_id": 4, "region": "bongpyeong",
+      "name": "효석문화제",
+      "content": "- **위치**: 강원도 평창군 봉평면 효석문학길 일대\n- **설명**: 이효석 문학을 기리는 가을 축제. 메밀꽃밭 야간 조명 연출\n- **입장료**: 무료\n- **특징**: 메밀꽃밭 야경, 문학 체험, 먹거리장터\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6300, "lng": 128.3730, "operating_hours": "10:00~22:00",
+      "admission_fee": "무료", "duration_min": 150,
+      "season_tags": "fall", "style_tags": "culture,photo,couple,family",
+      "event_start": "09-01", "event_end": "09-15"
+    },
+    {
+      "id": 83, "category_id": 4, "region": "daegwallyeong",
+      "name": "대관령 국제음악제",
+      "content": "- **위치**: 강원도 평창군 대관령면 알펜시아 음악홀\n- **설명**: 세계적 음악가들이 참여하는 클래식 음악 페스티벌\n- **입장료**: 공연별 상이\n- **특징**: 클래식 공연, 마스터클래스, 야외 콘서트\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6580, "lng": 128.6814, "operating_hours": "공연별 상이",
+      "admission_fee": "공연별 상이", "duration_min": 150,
+      "season_tags": "summer", "style_tags": "culture,couple",
+      "event_start": "07-20", "event_end": "08-05"
+    },
+    {
+      "id": 84, "category_id": 4, "region": "bongpyeong",
+      "name": "봉평 메밀꽃축제",
+      "content": "- **위치**: 강원도 평창군 봉평면 메밀꽃축제장\n- **설명**: 메밀꽃 만개 시기에 맞춰 열리는 가을 축제\n- **입장료**: 무료\n- **특징**: 메밀음식 체험, 전통 놀이, 공연\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6110, "lng": 128.3750, "operating_hours": "10:00~18:00",
+      "admission_fee": "무료", "duration_min": 150,
+      "season_tags": "fall", "style_tags": "culture,food,family",
+      "event_start": "08-25", "event_end": "09-10"
+    },
+    {
+      "id": 85, "category_id": 4, "region": "pyeongchang_eup",
+      "name": "평창 더위사냥축제",
+      "content": "- **위치**: 강원도 평창군 평창읍 평창강 일대\n- **설명**: 여름 무더위를 식히는 물놀이 축제\n- **입장료**: 일부 체험 유료\n- **특징**: 물총싸움, 래프팅, 물놀이 체험\n- **추천 소요시간**: 3~4시간",
+      "lat": 37.3700, "lng": 128.3900, "operating_hours": "10:00~18:00",
+      "admission_fee": "체험비 별도", "duration_min": 210,
+      "season_tags": "summer", "style_tags": "activity,family",
+      "event_start": "07-20", "event_end": "08-10"
+    },
+    {
+      "id": 86, "category_id": 4, "region": "pyeongchang_eup",
+      "name": "평창 백일홍축제",
+      "content": "- **위치**: 강원도 평창군 평창읍 백일홍 단지\n- **설명**: 백일홍(배롱나무꽃) 만개 시기 개최되는 꽃 축제\n- **입장료**: 무료\n- **특징**: 백일홍 꽃밭, 포토존, 공연, 체험\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.3750, "lng": 128.3950, "operating_hours": "10:00~18:00",
+      "admission_fee": "무료", "duration_min": 90,
+      "season_tags": "summer,fall", "style_tags": "photo,nature,couple",
+      "event_start": "08-15", "event_end": "09-15"
+    },
+    {
+      "id": 87, "category_id": 4, "region": "pyeongchang_eup",
+      "name": "평창 농악축제",
+      "content": "- **위치**: 강원도 평창군 평창읍 일대\n- **설명**: 전통 농악 공연과 체험이 어우러진 민속 축제\n- **입장료**: 무료\n- **특징**: 전통 농악 공연, 민속놀이, 먹거리\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.3710, "lng": 128.3910, "operating_hours": "10:00~18:00",
+      "admission_fee": "무료", "duration_min": 150,
+      "season_tags": "fall", "style_tags": "culture,family",
+      "event_start": "10-01", "event_end": "10-05"
+    },
+    {
+      "id": 88, "category_id": 4, "region": "bio_pyeongchang",
+      "name": "바이오평창 한방축제",
+      "content": "- **위치**: 강원도 평창군 바이오평창 일대\n- **설명**: 평창 한방 약초를 주제로 한 건강 축제\n- **입장료**: 무료\n- **특징**: 한방 체험, 약초 전시, 건강 상담\n- **추천 소요시간**: 2시간",
+      "lat": 37.4200, "lng": 128.4000, "operating_hours": "10:00~17:00",
+      "admission_fee": "무료", "duration_min": 120,
+      "season_tags": "fall", "style_tags": "culture,family",
+      "event_start": "09-20", "event_end": "09-25"
+    },
+    {
+      "id": 89, "category_id": 4, "region": "daegwallyeong",
+      "name": "대관령 들꽃축제",
+      "content": "- **위치**: 강원도 평창군 대관령면 야생화 단지\n- **설명**: 대관령 고원에 피어나는 야생화 감상 축제\n- **입장료**: 무료\n- **특징**: 야생화 탐방, 포토존, 자연해설\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.6800, "lng": 128.7200, "operating_hours": "10:00~17:00",
+      "admission_fee": "무료", "duration_min": 90,
+      "season_tags": "summer", "style_tags": "nature,photo,family",
+      "event_start": "06-15", "event_end": "07-15"
+    },
+    {
+      "id": 90, "category_id": 4, "region": "daegwallyeong",
+      "name": "평창 올림픽 기념행사",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽플라자\n- **설명**: 2018 평창 동계올림픽 기념 연례 행사\n- **입장료**: 무료\n- **특징**: 올림픽 기념 공연, 전시, 체험 프로그램\n- **추천 소요시간**: 2시간",
+      "lat": 37.6562, "lng": 128.6756, "operating_hours": "10:00~18:00",
+      "admission_fee": "무료", "duration_min": 120,
+      "season_tags": "winter", "style_tags": "culture,family",
+      "event_start": "02-09", "event_end": "02-11"
+    },
+    {
+      "id": 91, "category_id": 4, "region": "jinbu",
+      "name": "오대산 전나무숲 힐링축제",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산 월정사 일원\n- **설명**: 전나무숲에서 즐기는 힐링·명상 축제\n- **입장료**: 오대산 입장료\n- **특징**: 숲 명상, 요가, 자연 체험 프로그램\n- **추천 소요시간**: 3시간",
+      "lat": 37.7300, "lng": 128.5900, "operating_hours": "09:00~17:00",
+      "admission_fee": "오대산 입장료", "duration_min": 180,
+      "season_tags": "spring,summer", "style_tags": "nature,relax,culture",
+      "event_start": "05-01", "event_end": "05-31"
+    },
+    {
+      "id": 92, "category_id": 4, "region": "pyeongchang_eup",
+      "name": "평창 감자축제",
+      "content": "- **위치**: 강원도 평창군 평창읍 일대\n- **설명**: 평창 특산물 감자를 주제로 한 여름 축제\n- **입장료**: 무료\n- **특징**: 감자 캐기 체험, 감자 음식, 농산물 직판\n- **추천 소요시간**: 2시간",
+      "lat": 37.3700, "lng": 128.3900, "operating_hours": "10:00~17:00",
+      "admission_fee": "무료", "duration_min": 120,
+      "season_tags": "summer", "style_tags": "food,family,culture",
+      "event_start": "08-01", "event_end": "08-05"
+    },
+    {
+      "id": 93, "category_id": 4, "region": "jinbu",
+      "name": "진부시장 메밀축제",
+      "content": "- **위치**: 강원도 평창군 진부면 진부시장\n- **설명**: 진부 5일장과 연계한 메밀 음식 축제\n- **입장료**: 무료\n- **특징**: 메밀 요리 경연, 메밀전 체험, 장터\n- **추천 소요시간**: 2시간",
+      "lat": 37.6510, "lng": 128.5620, "operating_hours": "09:00~18:00",
+      "admission_fee": "무료", "duration_min": 120,
+      "season_tags": "fall", "style_tags": "food,culture,family",
+      "event_start": "09-15", "event_end": "09-20"
+    },
+    {
+      "id": 94, "category_id": 4, "region": "daegwallyeong",
+      "name": "대관령 겨울나라 축제",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리 일대\n- **설명**: 대관령 겨울 시즌 대표 종합 축제\n- **입장료**: 체험비 별도\n- **특징**: 눈조각, 얼음미끄럼틀, 겨울 체험\n- **추천 소요시간**: 3시간",
+      "lat": 37.6720, "lng": 128.7200, "operating_hours": "10:00~17:00",
+      "admission_fee": "체험비 별도", "duration_min": 180,
+      "season_tags": "winter", "style_tags": "family,activity",
+      "event_start": "12-20", "event_end": "02-20"
+    },
+    {
+      "id": 95, "category_id": 4, "region": "jinbu",
+      "name": "방아다리약수제",
+      "content": "- **위치**: 강원도 평창군 진부면 방아다리약수 일원\n- **설명**: 약수터를 중심으로 열리는 건강 축제\n- **입장료**: 무료\n- **특징**: 약수 체험, 건강 걷기, 전통 놀이\n- **추천 소요시간**: 2시간",
+      "lat": 37.7100, "lng": 128.5800, "operating_hours": "10:00~17:00",
+      "admission_fee": "무료", "duration_min": 120,
+      "season_tags": "spring", "style_tags": "nature,culture,family",
+      "event_start": "05-15", "event_end": "05-17"
+    },
+    {
+      "id": 96, "category_id": 4, "region": "daegwallyeong",
+      "name": "평창 크로스컨트리 대회",
+      "content": "- **위치**: 강원도 평창군 대관령면 알펜시아 크로스컨트리센터\n- **설명**: 올림픽 경기장에서 펼쳐지는 크로스컨트리 스키 대회\n- **입장료**: 무료 관람\n- **특징**: 올림픽 코스 체험, 스키 대회 관람\n- **추천 소요시간**: 3시간",
+      "lat": 37.6590, "lng": 128.6790, "operating_hours": "09:00~16:00",
+      "admission_fee": "무료 관람", "duration_min": 180,
+      "season_tags": "winter", "style_tags": "activity,culture",
+      "event_start": "01-20", "event_end": "01-22"
+    },
+    {
+      "id": 97, "category_id": 4, "region": "daegwallyeong",
+      "name": "평창 별빛축제",
+      "content": "- **위치**: 강원도 평창군 대관령면 일대\n- **설명**: 대관령 맑은 밤하늘 별 관측 축제\n- **입장료**: 무료\n- **특징**: 별자리 관측, 천문 강연, 야간 트레킹\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6800, "lng": 128.7300, "operating_hours": "19:00~23:00",
+      "admission_fee": "무료", "duration_min": 150,
+      "season_tags": "summer", "style_tags": "nature,couple,family",
+      "event_start": "07-01", "event_end": "08-31"
+    },
+    {
+      "id": 98, "category_id": 4, "region": "pyeongchang_eup",
+      "name": "평창 평화축제",
+      "content": "- **위치**: 강원도 평창군 평창읍 올림픽플라자\n- **설명**: 평창 올림픽 정신 계승 평화 문화축제\n- **입장료**: 무료\n- **특징**: 평화 공연, 문화 교류, 체험 부스\n- **추천 소요시간**: 2시간",
+      "lat": 37.6562, "lng": 128.6756, "operating_hours": "10:00~18:00",
+      "admission_fee": "무료", "duration_min": 120,
+      "season_tags": "winter", "style_tags": "culture,family",
+      "event_start": "02-01", "event_end": "02-09"
+    },
+    {
+      "id": 99, "category_id": 4, "region": "daegwallyeong",
+      "name": "대관령 눈꽃마라톤",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 설경 속에서 달리는 겨울 마라톤 대회\n- **입장료**: 참가비 별도\n- **특징**: 10km, 하프 코스, 눈길 달리기\n- **추천 소요시간**: 3~4시간",
+      "lat": 37.6700, "lng": 128.7150, "operating_hours": "08:00~14:00",
+      "admission_fee": "참가비 30,000원", "duration_min": 210,
+      "season_tags": "winter", "style_tags": "activity",
+      "event_start": "01-15", "event_end": "01-15"
+    },
+    {
+      "id": 100, "category_id": 4, "region": "daegwallyeong",
+      "name": "대관령 목장 축제",
+      "content": "- **위치**: 강원도 평창군 대관령면 삼양목장·양떼목장\n- **설명**: 봄~가을 대관령 목장에서 열리는 가족 축제\n- **입장료**: 목장 입장료\n- **특징**: 양 먹이주기, 목장 체험, 유제품 시식\n- **추천 소요시간**: 3시간",
+      "lat": 37.6889, "lng": 128.7336, "operating_hours": "09:00~17:00",
+      "admission_fee": "목장 입장료 별도", "duration_min": 180,
+      "season_tags": "spring,summer,fall", "style_tags": "family,nature",
+      "event_start": "04-01", "event_end": "10-31"
+    },
+    {
+      "id": 101, "category_id": 4, "region": "pyeongchang_eup",
+      "name": "평창 트라이애슬론 대회",
+      "content": "- **위치**: 강원도 평창군 대관령면 알펜시아 일대\n- **설명**: 수영·사이클·달리기 3종 복합 스포츠 대회\n- **입장료**: 무료 관람\n- **특징**: 올림픽 코스, 아마추어 참가 가능\n- **추천 소요시간**: 4시간",
+      "lat": 37.6580, "lng": 128.6814, "operating_hours": "07:00~15:00",
+      "admission_fee": "무료 관람", "duration_min": 240,
+      "season_tags": "summer", "style_tags": "activity",
+      "event_start": "06-20", "event_end": "06-22"
+    },
+    {
+      "id": 102, "category_id": 5, "region": "daegwallyeong",
+      "name": "알펜시아 스키장",
+      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 325\n- **설명**: 올림픽 경기장에서 즐기는 스키·스노보드\n- **가격대**: 리프트권 50,000~80,000원\n- **특징**: 6면 슬로프, 초·중급 위주, 올림픽 코스\n- **추천 소요시간**: 반나절~1일",
+      "lat": 37.6580, "lng": 128.6814, "operating_hours": "09:00~22:00 (시즌: 11월~3월)",
+      "duration_min": 300, "season_tags": "winter", "style_tags": "ski,activity,family"
+    },
+    {
+      "id": 103, "category_id": 5, "region": "bongpyeong",
+      "name": "휘닉스 스노우파크",
+      "content": "- **위치**: 강원도 평창군 봉평면 태기로 174\n- **설명**: 휘닉스파크 리조트 내 스키장. 다양한 슬로프와 야간 스키\n- **가격대**: 리프트권 55,000~85,000원\n- **특징**: 21면 슬로프, 하프파이프, 야간 스키\n- **추천 소요시간**: 반나절~1일",
+      "lat": 37.5840, "lng": 128.3230, "operating_hours": "08:30~익일 03:00 (시즌: 11월~3월)",
+      "duration_min": 300, "season_tags": "winter", "style_tags": "ski,activity,couple"
+    },
+    {
+      "id": 104, "category_id": 5, "region": "jinbu",
+      "name": "오대산 트레킹",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산로\n- **설명**: 오대산 국립공원 다양한 등산·트레킹 코스\n- **코스**: 월정사~상원사(8km), 비로봉 종주(16km)\n- **특징**: 전나무숲길, 계곡 트레킹, 비로봉 등반\n- **추천 소요시간**: 3~7시간",
+      "lat": 37.7800, "lng": 128.5400, "operating_hours": "일출~일몰",
+      "duration_min": 300, "season_tags": "spring,summer,fall", "style_tags": "hiking,nature,activity"
+    },
+    {
+      "id": 105, "category_id": 5, "region": "daegwallyeong",
+      "name": "대관령 옛길 트레킹",
+      "content": "- **위치**: 강원도 평창군 대관령면 반정골길\n- **설명**: 조선시대 옛길을 걷는 역사 트레킹 코스\n- **코스**: 약 6km, 약 2~3시간 소요\n- **특징**: 역사 해설, 숲길 걷기, 사계절 매력\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6850, "lng": 128.7350, "operating_hours": "상시 개방",
+      "duration_min": 150, "season_tags": "spring,summer,fall,winter", "style_tags": "hiking,nature,culture"
+    },
+    {
+      "id": 106, "category_id": 5, "region": "yongpyeong",
+      "name": "발왕산 곤돌라 트레킹",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715\n- **설명**: 곤돌라 탑승 후 발왕산 정상 천년주목숲 트레킹\n- **코스**: 곤돌라 정상~주목숲길 왕복 2km\n- **특징**: 고산 트레킹, 천년주목, 스카이워크\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6443, "lng": 128.6802, "operating_hours": "09:00~16:30",
+      "duration_min": 150, "season_tags": "spring,summer,fall,winter", "style_tags": "hiking,nature,photo"
+    },
+    {
+      "id": 107, "category_id": 5, "region": "bongpyeong",
+      "name": "금당계곡 물놀이",
+      "content": "- **위치**: 강원도 평창군 봉평면 금당계곡로\n- **설명**: 맑은 계곡에서 여름 물놀이와 수영\n- **이용료**: 무료\n- **특징**: 얕은 수심, 기암괴석, 가족 물놀이\n- **추천 소요시간**: 2~4시간",
+      "lat": 37.5900, "lng": 128.3600, "operating_hours": "상시 개방 (6~8월 추천)",
+      "duration_min": 180, "season_tags": "summer", "style_tags": "activity,family,nature"
+    },
+    {
+      "id": 108, "category_id": 5, "region": "daegwallyeong",
+      "name": "대관령 패러글라이딩",
+      "content": "- **위치**: 강원도 평창군 대관령면 일대\n- **설명**: 대관령 고원에서 즐기는 패러글라이딩 체험\n- **가격대**: 1인 100,000~130,000원 (탠덤비행)\n- **특징**: 대관령 조망, 15~20분 비행, 전문 교관 동행\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.6750, "lng": 128.7250, "operating_hours": "09:00~17:00 (기상 조건에 따라)",
+      "duration_min": 90, "season_tags": "spring,summer,fall", "style_tags": "activity,adventure,couple"
+    },
+    {
+      "id": 109, "category_id": 5, "region": "daegwallyeong",
+      "name": "대관령 눈썰매장",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 겨울 가족 놀이 명소. 눈썰매와 눈놀이 체험\n- **가격대**: 1인 10,000~15,000원\n- **특징**: 눈썰매, 눈사람 만들기, 어린이 안전 코스\n- **추천 소요시간**: 2시간",
+      "lat": 37.6720, "lng": 128.7200, "operating_hours": "09:30~17:00 (12~2월)",
+      "duration_min": 120, "season_tags": "winter", "style_tags": "family,activity"
+    },
+    {
+      "id": 110, "category_id": 5, "region": "bongpyeong",
+      "name": "봉평 ATV 체험",
+      "content": "- **위치**: 강원도 평창군 봉평면 일대\n- **설명**: 산길과 흙길을 달리는 ATV(사륜오토바이) 체험\n- **가격대**: 1인 30,000~50,000원\n- **특징**: 초보자 가능, 약 30분~1시간 코스\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.6150, "lng": 128.3800, "operating_hours": "09:00~17:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall", "style_tags": "activity,adventure,couple"
+    },
+    {
+      "id": 111, "category_id": 5, "region": "pyeongchang_eup",
+      "name": "노동계곡 래프팅",
+      "content": "- **위치**: 강원도 평창군 평창읍 노동계곡\n- **설명**: 노동계곡에서 즐기는 가족 래프팅 체험\n- **가격대**: 1인 25,000~35,000원\n- **특징**: 약 5km 코스, 가족 단위 추천\n- **추천 소요시간**: 1.5~2시간",
+      "lat": 37.3800, "lng": 128.4100, "operating_hours": "09:00~17:00 (6~8월)",
+      "duration_min": 120, "season_tags": "summer", "style_tags": "activity,family"
+    },
+    {
+      "id": 112, "category_id": 5, "region": "daegwallyeong",
+      "name": "알펜시아 짚라인",
+      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 325\n- **설명**: 알펜시아 리조트에서 즐기는 1.4km 짚라인\n- **가격대**: 1인 40,000원\n- **특징**: 대관령 전경 조망, 최고 시속 120km\n- **추천 소요시간**: 1시간",
+      "lat": 37.6580, "lng": 128.6814, "operating_hours": "10:00~17:00 (4~11월)",
+      "duration_min": 60, "season_tags": "spring,summer,fall", "style_tags": "activity,adventure,couple"
+    },
+    {
+      "id": 113, "category_id": 5, "region": "jinbu",
+      "name": "송어 얼음낚시 체험",
+      "content": "- **위치**: 강원도 평창군 진부면 오대천\n- **설명**: 겨울철 얼음 위에서 송어를 낚는 체험\n- **가격대**: 체험비 12,000~15,000원 (낚시대 포함)\n- **특징**: 잡은 송어 현장 조리, 가족 체험\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6450, "lng": 128.5500, "operating_hours": "09:00~17:00 (12~2월)",
+      "duration_min": 150, "season_tags": "winter", "style_tags": "activity,family"
+    },
+    {
+      "id": 114, "category_id": 5, "region": "daegwallyeong",
+      "name": "대관령 승마체험",
+      "content": "- **위치**: 강원도 평창군 대관령면 승마체험장\n- **설명**: 대관령 초원에서 즐기는 승마 체험\n- **가격대**: 1인 20,000~50,000원 (코스별)\n- **특징**: 초보자 교습, 야외 승마, 포니 체험\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.6900, "lng": 128.7400, "operating_hours": "09:00~17:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall", "style_tags": "activity,family,nature"
+    },
+    {
+      "id": 115, "category_id": 5, "region": "pyeongchang_eup",
+      "name": "평창 카약 체험",
+      "content": "- **위치**: 강원도 평창군 평창읍 평창강\n- **설명**: 잔잔한 평창강에서 즐기는 카약 체험\n- **가격대**: 1인 25,000~35,000원\n- **특징**: 초보자 가능, 강변 풍경 감상\n- **추천 소요시간**: 1.5시간",
+      "lat": 37.3750, "lng": 128.3950, "operating_hours": "09:00~17:00 (5~10월)",
+      "duration_min": 90, "season_tags": "spring,summer,fall", "style_tags": "activity,couple,nature"
+    },
+    {
+      "id": 116, "category_id": 5, "region": "daegwallyeong",
+      "name": "알펜시아 워터파크",
+      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 325\n- **설명**: 알펜시아 리조트 내 실내 워터파크\n- **가격대**: 성인 50,000~70,000원\n- **특징**: 파도풀, 슬라이드, 실내외 수영장\n- **추천 소요시간**: 3~5시간",
+      "lat": 37.6580, "lng": 128.6814, "operating_hours": "10:00~18:00",
+      "duration_min": 240, "season_tags": "spring,summer,fall,winter", "style_tags": "activity,family"
+    },
+    {
+      "id": 117, "category_id": 5, "region": "daegwallyeong",
+      "name": "대관령 스노우모빌",
+      "content": "- **위치**: 강원도 평창군 대관령면 일대\n- **설명**: 눈밭에서 즐기는 스노우모빌 레이싱 체험\n- **가격대**: 1인 30,000~50,000원\n- **특징**: 설원 질주, 초보자 교습 포함\n- **추천 소요시간**: 1시간",
+      "lat": 37.6750, "lng": 128.7200, "operating_hours": "09:00~17:00 (12~2월)",
+      "duration_min": 60, "season_tags": "winter", "style_tags": "activity,adventure,couple"
+    },
+    {
+      "id": 118, "category_id": 5, "region": "jinbu",
+      "name": "월정사 숲길 산책",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산로 374-8\n- **설명**: 전나무숲길 산책과 명상 체험 코스\n- **코스**: 월정사 전나무숲길 약 1km\n- **특징**: 숲 치유, 명상 산책, 사계절 운영\n- **추천 소요시간**: 1~1.5시간",
+      "lat": 37.7300, "lng": 128.5900, "operating_hours": "일출~일몰",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "nature,relax,hiking"
+    },
+    {
+      "id": 119, "category_id": 5, "region": "bongpyeong",
+      "name": "휘닉스파크 루지 체험",
+      "content": "- **위치**: 강원도 평창군 봉평면 태기로 174\n- **설명**: 1.4km 트랙을 바퀴 달린 썰매로 질주\n- **가격대**: 1회 10,000원, 3회권 25,000원\n- **특징**: 스릴 만점, 가족 탑승 가능, 사계절\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.5840, "lng": 128.3230, "operating_hours": "09:30~17:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "activity,family,couple"
+    },
+    {
+      "id": 120, "category_id": 5, "region": "daegwallyeong",
+      "name": "대관령 양떼목장 산책",
+      "content": "- **위치**: 강원도 평창군 대관령면 대관령마루길 483-32\n- **설명**: 양떼목장 초원을 걷는 힐링 산책 코스\n- **이용료**: 입장료 6,000원\n- **특징**: 양 먹이주기, 초원 산책, 포토존\n- **추천 소요시간**: 1~2시간",
+      "lat": 37.6847, "lng": 128.7265, "operating_hours": "09:00~17:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "nature,family,relax"
+    },
+    {
+      "id": 121, "category_id": 5, "region": "jinbu",
+      "name": "방아다리약수 등산",
+      "content": "- **위치**: 강원도 평창군 진부면 방아다리길\n- **설명**: 약수터까지 걷는 등산 코스. 천연 탄산 약수 체험\n- **코스**: 약 3km, 약 1.5시간\n- **특징**: 숲길 등산, 천연 약수, 힐링\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.7100, "lng": 128.5800, "operating_hours": "상시 개방",
+      "duration_min": 150, "season_tags": "spring,summer,fall", "style_tags": "hiking,nature,relax"
+    },
+    {
+      "id": 122, "category_id": 6, "region": "bongpyeong",
+      "name": "이효석문학관 문학체험",
+      "content": "- **위치**: 강원도 평창군 봉평면 효석문학길 73-25\n- **설명**: 이효석 문학 작품을 읽고 체험하는 교육 프로그램\n- **가격대**: 체험비 5,000원\n- **특징**: 문학 해설, 글쓰기 체험, 메밀꽃밭 산책\n- **추천 소요시간**: 1.5시간",
+      "lat": 37.6307, "lng": 128.3732, "operating_hours": "09:00~18:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "culture,family"
+    },
+    {
+      "id": 123, "category_id": 6, "region": "daegwallyeong",
+      "name": "대관령 목장 유가공 체험",
+      "content": "- **위치**: 강원도 평창군 대관령면 꽃밭양지길\n- **설명**: 목장에서 직접 유제품(버터, 아이스크림)을 만드는 체험\n- **가격대**: 1인 15,000~20,000원\n- **특징**: 버터 만들기, 아이스크림 만들기, 목장 견학\n- **추천 소요시간**: 1.5시간",
+      "lat": 37.6880, "lng": 128.7330, "operating_hours": "10:00~16:00 (예약 필수)",
+      "duration_min": 90, "season_tags": "spring,summer,fall", "style_tags": "family,food"
+    },
+    {
+      "id": 124, "category_id": 6, "region": "jinbu",
+      "name": "월정사 템플스테이",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산로 374-8\n- **설명**: 천년고찰에서 체험하는 사찰 생활과 명상\n- **가격대**: 1박 50,000~70,000원\n- **특징**: 새벽 예불, 다도, 숲길 명상, 108배\n- **추천 소요시간**: 1박 2일",
+      "lat": 37.7300, "lng": 128.5900, "operating_hours": "체크인 15:00 (예약 필수)",
+      "duration_min": 1440, "season_tags": "spring,summer,fall,winter", "style_tags": "culture,relax,nature"
+    },
+    {
+      "id": 125, "category_id": 6, "region": "bongpyeong",
+      "name": "봉평 메밀국수 만들기",
+      "content": "- **위치**: 강원도 평창군 봉평면 봉평리\n- **설명**: 직접 메밀 반죽부터 면 뽑기까지 체험하는 프로그램\n- **가격대**: 1인 12,000원\n- **특징**: 반죽 체험, 면 뽑기, 직접 만든 국수 시식\n- **추천 소요시간**: 1.5시간",
+      "lat": 37.6110, "lng": 128.3750, "operating_hours": "10:00~16:00 (예약 필수)",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "food,family,culture"
+    },
+    {
+      "id": 126, "category_id": 6, "region": "bongpyeong",
+      "name": "허브나라 허브비누 만들기",
+      "content": "- **위치**: 강원도 평창군 봉평면 흥정계곡길 225\n- **설명**: 천연 허브를 이용한 비누·향초 만들기 체험\n- **가격대**: 1인 10,000~15,000원\n- **특징**: 허브비누, 허브향초, 허브오일 만들기\n- **추천 소요시간**: 1시간",
+      "lat": 37.5975, "lng": 128.3817, "operating_hours": "10:00~17:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "family,couple,culture"
+    },
+    {
+      "id": 127, "category_id": 6, "region": "daegwallyeong",
+      "name": "대관령 자연생태학교",
+      "content": "- **위치**: 강원도 평창군 대관령면 일대\n- **설명**: 대관령 자연 생태를 관찰하고 배우는 교육 프로그램\n- **가격대**: 1인 10,000~15,000원\n- **특징**: 곤충 관찰, 야생화 탐방, 숲 해설\n- **추천 소요시간**: 2시간",
+      "lat": 37.6750, "lng": 128.7250, "operating_hours": "09:00~16:00 (예약 필수)",
+      "duration_min": 120, "season_tags": "spring,summer,fall", "style_tags": "family,nature"
+    },
+    {
+      "id": 128, "category_id": 6, "region": "pyeongchang_eup",
+      "name": "평창 한지공예 체험",
+      "content": "- **위치**: 강원도 평창군 평창읍 일대\n- **설명**: 전통 한지를 이용한 공예품 만들기 체험\n- **가격대**: 1인 10,000~20,000원\n- **특징**: 한지 등 만들기, 한지 부채, 한지 인형\n- **추천 소요시간**: 1.5시간",
+      "lat": 37.3720, "lng": 128.3900, "operating_hours": "10:00~17:00 (예약 필수)",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "culture,family"
+    },
+    {
+      "id": 129, "category_id": 6, "region": "jinbu",
+      "name": "오대산 자연관찰 교실",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산 국립공원\n- **설명**: 국립공원 자연해설사와 함께하는 생태 교육\n- **가격대**: 무료 (사전 예약)\n- **특징**: 동식물 관찰, 계곡 탐사, 자연해설\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.7800, "lng": 128.5400, "operating_hours": "09:00~15:00 (예약 필수)",
+      "duration_min": 150, "season_tags": "spring,summer,fall", "style_tags": "family,nature"
+    },
+    {
+      "id": 130, "category_id": 6, "region": "daegwallyeong",
+      "name": "대관령 목공예 체험",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 나무를 이용한 목공예품 만들기 체험\n- **가격대**: 1인 15,000~25,000원\n- **특징**: 나무 도마, 목걸이, 열쇠고리 만들기\n- **추천 소요시간**: 1.5시간",
+      "lat": 37.6700, "lng": 128.7100, "operating_hours": "10:00~17:00",
+      "duration_min": 90, "season_tags": "spring,summer,fall,winter", "style_tags": "family,culture"
+    },
+    {
+      "id": 131, "category_id": 6, "region": "bongpyeong",
+      "name": "봉평 전통염색 체험",
+      "content": "- **위치**: 강원도 평창군 봉평면 일대\n- **설명**: 천연 염료를 이용한 전통 염색 체험\n- **가격대**: 1인 15,000~20,000원\n- **특징**: 쪽염색, 감물염색, 손수건·스카프 제작\n- **추천 소요시간**: 2시간",
+      "lat": 37.6120, "lng": 128.3780, "operating_hours": "10:00~16:00 (예약 필수)",
+      "duration_min": 120, "season_tags": "spring,summer,fall", "style_tags": "culture,couple,family"
+    },
+    {
+      "id": 132, "category_id": 6, "region": "daegwallyeong",
+      "name": "평창올림픽기념관 견학",
+      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 325\n- **설명**: 2018 평창 올림픽 역사와 기록을 살펴보는 견학\n- **가격대**: 성인 5,000원\n- **특징**: 올림픽 유물, VR 체험, 메달 전시\n- **추천 소요시간**: 1시간",
+      "lat": 37.6590, "lng": 128.6790, "operating_hours": "09:00~18:00",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "culture,family"
+    },
+    {
+      "id": 133, "category_id": 6, "region": "pyeongchang_eup",
+      "name": "백룡동굴 탐험 교육",
+      "content": "- **위치**: 강원도 평창군 미탄면 백룡동굴길 100\n- **설명**: 석회암 동굴 내부를 탐험하며 지질학을 배우는 교육\n- **가격대**: 성인 15,000원 (입장료 포함)\n- **특징**: 동굴 지질 해설, 종유석 관찰, 모노레일\n- **추천 소요시간**: 2시간",
+      "lat": 37.4300, "lng": 128.5100, "operating_hours": "09:00~16:00",
+      "duration_min": 120, "season_tags": "spring,summer,fall,winter", "style_tags": "family,culture"
+    },
+    {
+      "id": 134, "category_id": 6, "region": "daegwallyeong",
+      "name": "대관령 별자리 관측",
+      "content": "- **위치**: 강원도 평창군 대관령면 일대\n- **설명**: 맑은 밤하늘에서 별자리를 관측하는 천문 체험\n- **가격대**: 1인 10,000~15,000원\n- **특징**: 천체망원경 관측, 별자리 해설, 야간 체험\n- **추천 소요시간**: 2시간",
+      "lat": 37.6800, "lng": 128.7300, "operating_hours": "20:00~23:00 (예약 필수)",
+      "duration_min": 120, "season_tags": "spring,summer,fall,winter", "style_tags": "family,couple,nature"
+    },
+    {
+      "id": 135, "category_id": 6, "region": "bio_pyeongchang",
+      "name": "바이오평창 한방체험",
+      "content": "- **위치**: 강원도 평창군 바이오평창 약초마을\n- **설명**: 평창 약초를 활용한 한방 체험 프로그램\n- **가격대**: 1인 10,000~20,000원\n- **특징**: 약초 비누 만들기, 한방차 체험, 약초 족욕\n- **추천 소요시간**: 1.5시간",
+      "lat": 37.4200, "lng": 128.4000, "operating_hours": "10:00~17:00 (예약 필수)",
+      "duration_min": 90, "season_tags": "spring,summer,fall", "style_tags": "culture,relax,family"
+    },
+    {
+      "id": 136, "category_id": 6, "region": "pyeongchang_eup",
+      "name": "평창 전통 도자기 체험",
+      "content": "- **위치**: 강원도 평창군 평창읍 일대\n- **설명**: 물레를 이용한 전통 도자기 만들기 체험\n- **가격대**: 1인 20,000~30,000원\n- **특징**: 물레 체험, 도자기 채색, 작품 배송\n- **추천 소요시간**: 2시간",
+      "lat": 37.3730, "lng": 128.3920, "operating_hours": "10:00~17:00 (예약 필수)",
+      "duration_min": 120, "season_tags": "spring,summer,fall,winter", "style_tags": "culture,couple,family"
+    },
+    {
+      "id": 137, "category_id": 6, "region": "bongpyeong",
+      "name": "봉평 농촌체험 마을",
+      "content": "- **위치**: 강원도 평창군 봉평면 원길리\n- **설명**: 농촌 생활을 직접 체험하는 마을 프로그램\n- **가격대**: 1인 15,000~25,000원\n- **특징**: 감자캐기, 옥수수따기, 메밀전 만들기\n- **추천 소요시간**: 2~3시간",
+      "lat": 37.6130, "lng": 128.3790, "operating_hours": "09:00~17:00 (예약 필수)",
+      "duration_min": 150, "season_tags": "spring,summer,fall", "style_tags": "family,nature,food"
+    },
+    {
+      "id": 138, "category_id": 6, "region": "daegwallyeong",
+      "name": "대관령 풍력에너지 교육관",
+      "content": "- **위치**: 강원도 평창군 대관령면 풍력발전단지 인근\n- **설명**: 풍력 에너지와 신재생 에너지를 배우는 교육 시설\n- **가격대**: 무료\n- **특징**: 풍력 원리 체험, 에너지 교육, 전시관\n- **추천 소요시간**: 1시간",
+      "lat": 37.6800, "lng": 128.7400, "operating_hours": "09:00~17:00 (월요일 휴관)",
+      "duration_min": 60, "season_tags": "spring,summer,fall,winter", "style_tags": "family,culture"
+    },
+    {
+      "id": 139, "category_id": 6, "region": "jinbu",
+      "name": "오대산 야생화 교실",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산 국립공원\n- **설명**: 오대산 야생화를 관찰하고 배우는 자연 교실\n- **가격대**: 무료 (사전 예약)\n- **특징**: 야생화 관찰, 식물 도감 만들기, 숲 해설\n- **추천 소요시간**: 2시간",
+      "lat": 37.7500, "lng": 128.5500, "operating_hours": "09:00~15:00 (4~10월, 예약 필수)",
+      "duration_min": 120, "season_tags": "spring,summer,fall", "style_tags": "family,nature"
+    },
+    {
+      "id": 140, "category_id": 6, "region": "pyeongchang_eup",
+      "name": "평창 전통 장 담그기",
+      "content": "- **위치**: 강원도 평창군 평창읍 전통장마을\n- **설명**: 전통 방식으로 된장·고추장을 담그는 체험\n- **가격대**: 1인 20,000~30,000원\n- **특징**: 메주 만들기, 장 담그기, 발효과학 교육\n- **추천 소요시간**: 2시간",
+      "lat": 37.3740, "lng": 128.3940, "operating_hours": "10:00~16:00 (예약 필수)",
+      "duration_min": 120, "season_tags": "fall,winter", "style_tags": "food,culture,family"
+    },
+    {
+      "id": 141, "category_id": 6, "region": "daegwallyeong",
+      "name": "대관령 치즈&피자 체험",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 대관령 우유로 치즈와 피자를 만드는 체험\n- **가격대**: 1인 18,000~25,000원\n- **특징**: 스트링치즈, 모짜렐라 피자, 시식 포함\n- **추천 소요시간**: 2시간",
+      "lat": 37.6710, "lng": 128.7050, "operating_hours": "10:00~16:00 (예약 필수)",
+      "duration_min": 120, "season_tags": "spring,summer,fall,winter", "style_tags": "food,family"
+    },
+    {
+      "id": 142, "category_id": 7, "region": "bongpyeong",
+      "name": "휘닉스 평창 리조트",
+      "content": "- **위치**: 강원도 평창군 봉평면 태기로 174\n- **설명**: 스키장, 골프장, 워터파크를 갖춘 사계절 복합 리조트\n- **객실유형**: 콘도, 호텔, 블리스빌\n- **가격대**: 150,000~400,000원/박\n- **부대시설**: 스노우파크, 골프장, 루지, 워터파크",
+      "lat": 37.5840, "lng": 128.3230, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "ski,family,couple,relax"
+    },
+    {
+      "id": 143, "category_id": 7, "region": "daegwallyeong",
+      "name": "라마다 앙코르 바이 윈덤 평창",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 52\n- **설명**: 횡계 시내 중심가에 위치한 비즈니스·관광 호텔\n- **객실유형**: 스탠다드, 디럭스, 스위트\n- **가격대**: 100,000~250,000원/박\n- **부대시설**: 레스토랑, 피트니스, 사우나",
+      "lat": 37.6700, "lng": 128.7100, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "relax,couple"
+    },
+    {
+      "id": 144, "category_id": 7, "region": "yongpyeong",
+      "name": "용평리조트 드래곤밸리호텔",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715\n- **설명**: 용평리조트 내 프리미엄 호텔. 발왕산 곤돌라 인접\n- **객실유형**: 디럭스, 프리미엄, 스위트\n- **가격대**: 200,000~450,000원/박\n- **부대시설**: 레스토랑, 라운지, 수영장",
+      "lat": 37.6443, "lng": 128.6802, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "ski,couple,relax"
+    },
+    {
+      "id": 145, "category_id": 7, "region": "daegwallyeong",
+      "name": "알펜시아 홀리데이인",
+      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 325\n- **설명**: 알펜시아 리조트 내 가성비 호텔\n- **객실유형**: 스탠다드, 디럭스, 패밀리\n- **가격대**: 120,000~280,000원/박\n- **부대시설**: 실내수영장, 피트니스, 편의점",
+      "lat": 37.6580, "lng": 128.6814, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "family,ski,relax"
+    },
+    {
+      "id": 146, "category_id": 7, "region": "daegwallyeong",
+      "name": "대관령 솔향기펜션",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 소나무 숲 속 조용한 독채 펜션\n- **객실유형**: 독채 2인실, 4인실, 6인실\n- **가격대**: 80,000~180,000원/박\n- **부대시설**: BBQ장, 산책로, 주차장",
+      "lat": 37.6720, "lng": 128.7180, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "nature,couple,family,relax"
+    },
+    {
+      "id": 147, "category_id": 7, "region": "bongpyeong",
+      "name": "봉평 흥정펜션",
+      "content": "- **위치**: 강원도 평창군 봉평면 흥정리\n- **설명**: 흥정계곡 바로 앞 펜션. 여름 물놀이 최적\n- **객실유형**: 독채형, 커플룸, 패밀리룸\n- **가격대**: 70,000~160,000원/박\n- **부대시설**: 계곡 직접 접근, BBQ장, 주차장",
+      "lat": 37.6180, "lng": 128.3850, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall", "style_tags": "nature,family,relax"
+    },
+    {
+      "id": 148, "category_id": 7, "region": "daegwallyeong",
+      "name": "평창 올림픽 파크텔",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 일대\n- **설명**: 올림픽 시설 인근 합리적 가격의 숙소\n- **객실유형**: 스탠다드, 온돌, 패밀리\n- **가격대**: 60,000~130,000원/박\n- **부대시설**: 조식, 주차장, 세탁실",
+      "lat": 37.6560, "lng": 128.6760, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "family"
+    },
+    {
+      "id": 149, "category_id": 7, "region": "jinbu",
+      "name": "진부역 비즈니스호텔",
+      "content": "- **위치**: 강원도 평창군 진부면 경강로 일대\n- **설명**: KTX 진부역 인근 깔끔한 비즈니스 호텔\n- **객실유형**: 싱글, 더블, 트윈\n- **가격대**: 60,000~120,000원/박\n- **부대시설**: 조식, 주차장, 무료 와이파이",
+      "lat": 37.6510, "lng": 128.5620, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "relax"
+    },
+    {
+      "id": 150, "category_id": 7, "region": "daegwallyeong",
+      "name": "대관령 눈꽃마을 펜션",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 겨울 설경이 아름다운 유럽풍 펜션 단지\n- **객실유형**: 커플룸, 패밀리룸, 단체룸\n- **가격대**: 90,000~200,000원/박\n- **부대시설**: 벽난로, BBQ장, 눈썰매장",
+      "lat": 37.6730, "lng": 128.7190, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "couple,family,relax"
+    },
+    {
+      "id": 151, "category_id": 7, "region": "bongpyeong",
+      "name": "봉평 메밀꽃마을 글램핑",
+      "content": "- **위치**: 강원도 평창군 봉평면 봉평리\n- **설명**: 메밀꽃밭 인근 감성 글램핑장\n- **객실유형**: 글램핑 텐트, 카라반\n- **가격대**: 100,000~180,000원/박\n- **부대시설**: BBQ 세트, 개별 화장실, 캠프파이어",
+      "lat": 37.6100, "lng": 128.3760, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall", "style_tags": "couple,nature,photo"
+    },
+    {
+      "id": 152, "category_id": 7, "region": "jinbu",
+      "name": "월정사 템플스테이 숙소",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산로 374-8\n- **설명**: 천년고찰 월정사에서의 1박 템플스테이\n- **객실유형**: 사찰 숙소 (온돌방)\n- **가격대**: 50,000~70,000원/박\n- **부대시설**: 사찰 체험, 명상, 전나무숲 산책",
+      "lat": 37.7300, "lng": 128.5900, "operating_hours": "체크인 15:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "culture,relax,nature"
+    },
+    {
+      "id": 153, "category_id": 7, "region": "daegwallyeong",
+      "name": "대관령 풍차펜션",
+      "content": "- **위치**: 강원도 평창군 대관령면 횡계리\n- **설명**: 풍력발전단지 인근 전원풍 펜션\n- **객실유형**: 독채 2인실, 4인실\n- **가격대**: 80,000~160,000원/박\n- **부대시설**: 테라스, BBQ장, 잔디마당",
+      "lat": 37.6780, "lng": 128.7350, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "couple,nature,relax"
+    },
+    {
+      "id": 154, "category_id": 7, "region": "pyeongchang_eup",
+      "name": "평창 노블레스호텔",
+      "content": "- **위치**: 강원도 평창군 평창읍 종부로\n- **설명**: 평창읍 중심가 위치한 깔끔한 호텔\n- **객실유형**: 스탠다드, 디럭스, 패밀리\n- **가격대**: 70,000~150,000원/박\n- **부대시설**: 조식 뷔페, 주차장, 회의실",
+      "lat": 37.3710, "lng": 128.3900, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "relax,family"
+    },
+    {
+      "id": 155, "category_id": 7, "region": "bongpyeong",
+      "name": "허브나라 펜션",
+      "content": "- **위치**: 강원도 평창군 봉평면 흥정계곡길 225 인근\n- **설명**: 허브나라 농원 인근 허브 테마 펜션\n- **객실유형**: 커플룸, 패밀리룸\n- **가격대**: 80,000~150,000원/박\n- **부대시설**: 허브정원 접근, 족욕 체험",
+      "lat": 37.5980, "lng": 128.3820, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall", "style_tags": "couple,nature,relax"
+    },
+    {
+      "id": 156, "category_id": 7, "region": "yongpyeong",
+      "name": "용평리조트 그린피아콘도",
+      "content": "- **위치**: 강원도 평창군 대관령면 올림픽로 715\n- **설명**: 용평리조트 내 가성비 콘도. 자연 속 편안한 휴식\n- **객실유형**: 스튜디오, 패밀리, 복층\n- **가격대**: 80,000~200,000원/박\n- **부대시설**: 편의점, 식당, 사우나",
+      "lat": 37.6450, "lng": 128.6810, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "family,ski,relax"
+    },
+    {
+      "id": 157, "category_id": 7, "region": "daegwallyeong",
+      "name": "대관령 해피우 목장캠핑",
+      "content": "- **위치**: 강원도 평창군 대관령면 목장 인근\n- **설명**: 대관령 목장 분위기의 오토캠핑장\n- **사이트유형**: 오토캠핑, 글램핑, 카라반\n- **가격대**: 40,000~120,000원/박\n- **부대시설**: 개수대, 화장실, 샤워실, 매점",
+      "lat": 37.6870, "lng": 128.7320, "operating_hours": "체크인 14:00 / 체크아웃 12:00",
+      "season_tags": "spring,summer,fall", "style_tags": "nature,family"
+    },
+    {
+      "id": 158, "category_id": 7, "region": "jinbu",
+      "name": "진부 오대산펜션",
+      "content": "- **위치**: 강원도 평창군 진부면 오대산 인근\n- **설명**: 오대산 국립공원 입구 인근 자연 속 펜션\n- **객실유형**: 독채 2인실, 4인실, 단체\n- **가격대**: 70,000~150,000원/박\n- **부대시설**: BBQ장, 산책로, 계곡 접근",
+      "lat": 37.7200, "lng": 128.5800, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "nature,family,hiking"
+    },
+    {
+      "id": 159, "category_id": 7, "region": "daegwallyeong",
+      "name": "평창 스위스빌리지",
+      "content": "- **위치**: 강원도 평창군 대관령면 솔봉로 일대\n- **설명**: 스위스풍 건축의 유럽 감성 펜션 단지\n- **객실유형**: 독채형, 커플룸, 패밀리\n- **가격대**: 100,000~250,000원/박\n- **부대시설**: 유럽풍 정원, BBQ, 벽난로",
+      "lat": 37.6600, "lng": 128.6850, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "couple,photo,relax"
+    },
+    {
+      "id": 160, "category_id": 7, "region": "daegwallyeong",
+      "name": "대관령 양떼 글램핑",
+      "content": "- **위치**: 강원도 평창군 대관령면 양떼목장 인근\n- **설명**: 양떼목장 분위기의 감성 글램핑장\n- **사이트유형**: 글램핑 텐트, 돔텐트\n- **가격대**: 100,000~180,000원/박\n- **부대시설**: BBQ 세트, 캠프파이어, 양 체험",
+      "lat": 37.6840, "lng": 128.7260, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall", "style_tags": "couple,nature,photo"
+    },
+    {
+      "id": 161, "category_id": 7, "region": "bongpyeong",
+      "name": "봉평 달빛펜션",
+      "content": "- **위치**: 강원도 평창군 봉평면 효석문학길 인근\n- **설명**: 이효석문학관 인근 조용한 한옥풍 펜션\n- **객실유형**: 한옥 온돌방, 커플룸\n- **가격대**: 70,000~140,000원/박\n- **부대시설**: 한옥 마당, 메밀꽃밭 산책",
+      "lat": 37.6290, "lng": 128.3720, "operating_hours": "체크인 15:00 / 체크아웃 11:00",
+      "season_tags": "spring,summer,fall,winter", "style_tags": "couple,culture,relax"
     }
   ]
 }
