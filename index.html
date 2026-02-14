@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>평창 여행 플래너 - AI 여행 계획 생성</title>
+    <meta name="description" content="AI가 추천하는 맞춤형 평창 여행 계획을 만들어보세요">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 관리자 페이지 링크 -->
+<a href="editor.html" class="nav-btn">📝 여행 정보 관리</a>
+
+<!-- API 설정 버튼 -->
+<button class="nav-settings" onclick="openSettings()">⚙️ AI 설정</button>
+
+<!-- 토스트 -->
+<div class="toast-container" id="toastContainer"></div>
+
+<!-- 로딩 오버레이 -->
+<div class="loading-overlay" id="loadingOverlay">
+    <div class="loading-box">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">여행 계획을 생성하고 있습니다...</div>
+        <div class="loading-sub">AI가 최적의 일정을 만들고 있어요 ✨</div>
+    </div>
+</div>
+
+<!-- API 설정 모달 -->
+<div class="modal-overlay" id="settingsModal">
+    <div class="modal-box">
+        <h2>⚙️ AI API 설정</h2>
+        <div class="form-group">
+            <label class="form-label">AI 서비스 선택</label>
+            <select class="form-select" id="settingsProvider">
+                <option value="claude">Anthropic Claude</option>
+                <option value="openai">OpenAI GPT</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-label">API Key</label>
+            <input type="password" class="form-input" id="settingsApiKey" placeholder="sk-... 또는 API Key 입력">
+            <p class="form-hint">API Key는 브라우저에만 저장되며 외부로 전송되지 않습니다</p>
+        </div>
+        <div style="display: flex; gap: 12px; margin-top: 20px;">
+            <button class="btn btn-primary" style="flex:1" onclick="saveSettings()">저장</button>
+            <button class="btn btn-secondary" onclick="closeSettings()">닫기</button>
+        </div>
+    </div>
+</div>
+
+<!-- ========== 입력 폼 ========== -->
+<div id="plannerForm">
+    <header class="site-header">
+        <h1 class="logo">
+            <span class="logo-icon">⛰️</span>
+            평창 여행 플래너
+        </h1>
+        <p class="subtitle">AI가 추천하는 맞춤형 평창 여행 계획을 만들어보세요</p>
+    </header>
+
+    <div class="container" style="max-width: 720px;">
+        <div class="card">
+            <h2 style="font-size: 1.3rem; margin-bottom: 28px;">📅 여행 일정 입력</h2>
+
+            <!-- 여행 지역 -->
+            <div class="form-group">
+                <label class="form-label"><span class="icon">📍</span> 여행 지역</label>
+                <select class="form-select" id="regionSelect">
+                    <option value="">지역을 선택하세요</option>
+                    <option value="all">전체 (평창 전체 지역)</option>
+                    <option value="daegwallyeong">대관령</option>
+                    <option value="bongpyeong">봉평</option>
+                    <option value="yongpyeong">용평</option>
+                    <option value="pyeongchang_eup">평창읍</option>
+                    <option value="bio_pyeongchang">바이오평창</option>
+                    <option value="jinbu">진부</option>
+                </select>
+            </div>
+
+            <!-- 여행 월 -->
+            <div class="form-group">
+                <label class="form-label"><span class="icon">📆</span> 여행 월</label>
+                <select class="form-select" id="monthSelect">
+                    <option value="">월을 선택하세요</option>
+                    <option value="1">1월</option><option value="2">2월</option>
+                    <option value="3">3월</option><option value="4">4월</option>
+                    <option value="5">5월</option><option value="6">6월</option>
+                    <option value="7">7월</option><option value="8">8월</option>
+                    <option value="9">9월</option><option value="10">10월</option>
+                    <option value="11">11월</option><option value="12">12월</option>
+                </select>
+            </div>
+
+            <!-- 여행 기간 -->
+            <div class="form-group">
+                <label class="form-label"><span class="icon">🕐</span> 여행 기간 (최대 5일)</label>
+                <div class="day-btn-group" id="dayButtons">
+                    <button type="button" class="day-btn" data-days="1">1<small>일</small></button>
+                    <button type="button" class="day-btn" data-days="2">2<small>일</small></button>
+                    <button type="button" class="day-btn" data-days="3">3<small>일</small></button>
+                    <button type="button" class="day-btn" data-days="4">4<small>일</small></button>
+                    <button type="button" class="day-btn" data-days="5">5<small>일</small></button>
+                </div>
+            </div>
+
+            <!-- 여행 스타일 -->
+            <div class="form-group">
+                <label class="form-label"><span class="icon">💜</span> 여행 스타일 (다중 선택 가능)</label>
+                <div class="style-grid" id="styleGrid"></div>
+            </div>
+
+            <!-- 기타 여행 스타일 -->
+            <div class="form-group">
+                <label class="form-label"><span class="icon">✏️</span> 기타 여행 스타일 (직접 입력)</label>
+                <input type="text" class="form-input" id="customStyle" placeholder="예: 템플스테이, 캠핑, 사이클링 등">
+                <p class="form-hint">여러 개 입력 시 쉼표(,)로 구분해주세요</p>
+            </div>
+
+            <!-- 생성 버튼 -->
+            <button class="btn btn-primary btn-full btn-lg" id="generateBtn" onclick="generatePlan()">
+                ✏️ AI 여행 계획 생성하기
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- ========== 결과 ========== -->
+<div id="planResult" class="plan-result">
+    <header class="site-header" style="padding-bottom: 16px;">
+        <h1 class="logo" style="font-size: 1.8rem;">
+            <span class="logo-icon">⛰️</span>
+            평창 여행 플래너
+        </h1>
+    </header>
+    <div class="container" style="max-width: 800px;">
+        <div class="plan-header" id="planHeader"></div>
+        <div class="plan-summary" id="planSummary"></div>
+        <div class="day-tabs" id="dayTabs"></div>
+        <div id="dayContents"></div>
+        <div id="accommodationCard"></div>
+        <div id="travelTips"></div>
+        <div class="plan-actions">
+            <button class="btn btn-primary" onclick="goBack()">🔄 다시 만들기</button>
+            <button class="btn btn-secondary" onclick="window.print()">🖨️ 인쇄하기</button>
+            <button class="btn btn-outline" onclick="sharePlan()">🔗 공유 링크 복사</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/planner.js"></script>
+</body>
+</html>

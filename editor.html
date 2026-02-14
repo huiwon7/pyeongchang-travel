@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>평창 여행 정보 관리</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 토스트 -->
+<div class="toast-container" id="toastContainer"></div>
+
+<!-- 메인 콘텐츠 -->
+<header class="site-header" style="padding: 32px 20px 16px;">
+    <h1 style="font-size: 1.8rem; font-weight: 800;">📝 평창 여행 정보 관리</h1>
+    <p class="subtitle">AI 여행 계획 생성에 사용될 7개 카테고리 데이터를 등록하고 관리합니다</p>
+</header>
+
+<!-- 상단 버튼 -->
+<a href="index.html" class="nav-btn">🏠 메인으로</a>
+
+<div class="container">
+    <!-- 카테고리 탭 -->
+    <div class="tab-nav" id="categoryTabs"></div>
+
+    <!-- 데이터 관리 도구 -->
+    <div style="display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap;">
+        <button class="btn btn-sm btn-secondary" onclick="exportData()">📥 데이터 내보내기 (JSON)</button>
+        <button class="btn btn-sm btn-secondary" onclick="document.getElementById('importFile').click()">📤 데이터 가져오기</button>
+        <button class="btn btn-sm btn-danger" onclick="resetToDefault()">🔄 기본 데이터로 초기화</button>
+        <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(this)">
+    </div>
+
+    <!-- 2컬럼 레이아웃 -->
+    <div class="editor-layout">
+        <!-- 왼쪽: 입력 폼 -->
+        <div>
+            <div class="card">
+                <h2 id="formTitle" style="font-size: 1.2rem; margin-bottom: 20px;">➕ 관광지 등록</h2>
+
+                <!-- 명칭 -->
+                <div class="form-group">
+                    <label class="form-label">명칭 *</label>
+                    <input type="text" class="form-input" id="placeName" placeholder="장소/식당/숙소 이름" maxlength="100">
+                </div>
+
+                <!-- 지역 -->
+                <div class="form-group">
+                    <label class="form-label">지역 *</label>
+                    <select class="form-select" id="placeRegion"></select>
+                </div>
+
+                <!-- 상세 내용 -->
+                <div class="form-group">
+                    <label class="form-label">상세 내용 (마크다운 형식) *</label>
+                    <textarea class="form-textarea" id="placeContent" placeholder="예:
+- **위치**: 강원도 평창군...
+- **설명**: 2018 평창 동계올림픽...
+- **운영시간**: 09:00~18:00
+- **입장료**: 성인 5,000원
+- **특징**: 올림픽 기념관, 스타디움
+- **추천 소요시간**: 2~3시간
+- **태그**: #올림픽 #문화체험"></textarea>
+                </div>
+
+                <!-- GPS -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                    <div class="form-group">
+                        <label class="form-label">위도 (GPS)</label>
+                        <input type="text" class="form-input" id="placeLat" placeholder="37.6580">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">경도 (GPS)</label>
+                        <input type="text" class="form-input" id="placeLng" placeholder="128.6814">
+                    </div>
+                </div>
+
+                <!-- 운영시간 / 입장료 -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                    <div class="form-group">
+                        <label class="form-label">운영시간</label>
+                        <input type="text" class="form-input" id="placeHours" placeholder="09:00~18:00">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">입장료</label>
+                        <input type="text" class="form-input" id="placeFee" placeholder="무료 또는 성인 5,000원">
+                    </div>
+                </div>
+
+                <!-- 추천 소요시간 -->
+                <div class="form-group">
+                    <label class="form-label">추천 소요시간 (분)</label>
+                    <input type="number" class="form-input" id="placeDuration" placeholder="120" min="0" max="720">
+                </div>
+
+                <!-- 계절/스타일 태그 -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                    <div class="form-group">
+                        <label class="form-label">계절 태그</label>
+                        <input type="text" class="form-input" id="placeSeasonTags" placeholder="spring,summer,fall,winter">
+                        <p class="form-hint">쉼표로 구분</p>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">스타일 태그</label>
+                        <input type="text" class="form-input" id="placeStyleTags" placeholder="family,couple,nature">
+                        <p class="form-hint">쉼표로 구분</p>
+                    </div>
+                </div>
+
+                <!-- 행사 전용 -->
+                <div id="eventFields" style="display: none;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                        <div class="form-group">
+                            <label class="form-label">행사 시작 (월-일)</label>
+                            <input type="text" class="form-input" id="eventStart" placeholder="01-15">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">행사 종료 (월-일)</label>
+                            <input type="text" class="form-input" id="eventEnd" placeholder="02-28">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 버튼 -->
+                <div style="display: flex; gap: 12px; margin-top: 8px;">
+                    <button class="btn btn-primary" style="flex: 1;" onclick="savePlace()">💾 저장</button>
+                    <button class="btn btn-secondary" onclick="resetForm()">🔄 초기화</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 오른쪽: 목록 -->
+        <div>
+            <div class="card">
+                <h2 id="listTitle" style="font-size: 1.2rem; margin-bottom: 20px;">
+                    📋 등록된 관광지 <span class="count-badge" id="listCount">0</span>
+                </h2>
+                <div class="place-list" id="placeList">
+                    <div class="empty-state">
+                        <div class="empty-icon">📭</div>
+                        <p>등록된 데이터가 없습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/editor.js"></script>
+</body>
+</html>
