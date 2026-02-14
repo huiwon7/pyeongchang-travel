@@ -33,7 +33,6 @@ const CONFIG = {
         { id: 4, name: '행사', icon: '📅' },
         { id: 5, name: '액티비티', icon: '⛷️' },
         { id: 6, name: '체험학습', icon: '🎓' },
-        { id: 7, name: '숙소', icon: '🏨' },
     ],
 
     // 여행 스타일
